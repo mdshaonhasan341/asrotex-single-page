@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Asrotex Group — One roof. Yarn to shipment.</title>
+  <meta name="description" content="Asrotex Group is Bangladesh's vertically integrated knit-apparel manufacturer, since 1995. USD 220M turnover, 48M pieces a year, five units, 17,000 people, trusted by 50+ global brands." />
+  <meta property="og:title" content="Asrotex Group — One roof. Yarn to shipment." />
+  <meta property="og:description" content="Bangladesh's vertically integrated knit-apparel group — speed, scale, precision." />
+  <meta property="og:image" content="assets/posters/approach.jpg" />
+  <meta name="theme-color" content="#0B0F0C" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230B0F0C'/%3E%3Cpath d='M9 24 16 8l7 16M11.8 18h8.4' fill='none' stroke='%232EB35A' stroke-width='2'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap" rel="stylesheet" />
+  <link rel="preload" as="image" href="assets/posters/approach.jpg" />
+  <link rel="stylesheet" href="styles.css" />
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Organization","name":"Asrotex Group","foundingDate":"1995","description":"Vertically integrated knit-apparel manufacturer in Bangladesh.","address":{"@type":"PostalAddress","addressLocality":"Narayanganj","addressCountry":"BD"}}
+  </script>
+</head>
+<body>
+
+<!-- ====================================================== NAV -->
+<header class="nav" id="nav">
+  <div class="container">
+    <!-- [LOGO SVG] — typographic wordmark until the logo file is supplied -->
+    <a class="wordmark" href="#top" aria-label="Asrotex Group — home">
+      <span class="wm">ASROTEX</span><span class="wm-sub">GROUP</span>
+    </a>
+    <nav class="nav-links" id="nav-links" aria-label="Primary">
+      <a href="#capabilities">Capabilities</a>
+      <a href="#units">Units</a>
+      <a href="#products">Products</a>
+      <a href="#studio">Design Studio</a>
+      <a href="#sustainability">Sustainability</a>
+      <a href="#partners">Partners</a>
+      <a href="#connect">Connect</a>
+    </nav>
+    <div class="nav-right">
+      <span class="nav-status" id="nav-status" aria-live="polite">Preparing tour</span>
+      <a class="pill" href="#connect">Let's Connect</a>
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Menu"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ====================================================== 1 · HERO -->
+<section class="hero s-ink" aria-label="Introduction">
+  <div class="hero-media">
+    <img src="assets/posters/approach.jpg" alt="Asrotex Group factory building in Narayanganj, Bangladesh — first frame of the factory tour" fetchpriority="high" />
+  </div>
+  <div class="hero-scrim" aria-hidden="true"></div>
+  <div class="container hero-inner">
+    <p class="eyebrow reveal in">Since 1995 · Narayanganj, Bangladesh</p>
+    <h1 class="display reveal in" style="--d:1">One roof.<br />Yarn to shipment.</h1>
+    <p class="lede reveal in" style="--d:2">Bangladesh's vertically integrated knit-apparel group — speed, scale, precision.</p>
+    <div class="hero-cta reveal in" style="--d:3">
+      <a class="pill" href="#connect">Let's Connect <svg viewBox="0 0 14 14" aria-hidden="true"><path d="M2 7h10M8 3l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></a>
+      <a class="textlink" href="#tour">Take the tour <svg viewBox="0 0 14 14" aria-hidden="true"><path d="M7 2v10M3 8l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></a>
+    </div>
+  </div>
+  <div class="scroll-cue" id="scroll-cue" aria-hidden="true"><i></i>Scroll</div>
+  <div class="hero-meta" aria-hidden="true">…differently</div>
+</section>
+
+<!-- ====================================================== 2 · NUMBERS -->
+<section class="numbers s-ink" aria-label="Key figures">
+  <div class="container">
+    <div class="stat reveal"><div class="num" data-count="220" data-prefix="$" data-suffix="M">$0M</div><div class="label">Annual turnover, USD</div></div>
+    <div class="stat reveal" style="--d:1"><div class="num" data-count="48" data-suffix="M">0M</div><div class="label">Pieces a year</div></div>
+    <div class="stat reveal" style="--d:2"><div class="num" data-count="5">0</div><div class="label">Manufacturing units</div></div>
+    <div class="stat reveal" style="--d:3"><div class="num" data-count="17000">0</div><div class="label">People</div></div>
+    <div class="stat reveal" style="--d:4"><div class="num" data-count="30" data-suffix="+">0+</div><div class="label">Years, since 1995</div></div>
+  </div>
+</section>
+
+<!-- ====================================================== 3 · THE TOUR (scroll-scrubbed) -->
+<section class="tour s-ink" id="tour" aria-label="Factory tour, yarn to shipment">
+  <div class="tour-stage">
+    <canvas class="tour-canvas" id="tour-canvas" aria-hidden="true"></canvas>
+    <img class="tour-poster" id="tour-poster" src="assets/posters/approach.jpg" alt="" aria-hidden="true" />
+    <div class="tour-vignette" aria-hidden="true"></div>
+    <div class="tour-index" id="tour-index" aria-hidden="true">Yarn to shipment · 01 / 04</div>
+
+    <div class="tour-copy" data-chapter="0">
+      <div class="line" data-in="0.02" data-out="0.48">
+        <p class="eyebrow">01 · The approach</p>
+        <h2 class="h1">Five units. One system.</h2>
+        <p>Narayanganj and Gazipur, Bangladesh. Five cut &amp; sew units, a textile division and an accessories division, run to a single group standard.</p>
+      </div>
+      <div class="line" data-in="0.55" data-out="0.98">
+        <p class="eyebrow">Fariha Knit Tex · mother unit</p>
+        <h2 class="h1">2,200 machines. One benchmark.</h2>
+        <div class="data"><div><b>76</b><span>Sewing modules</span></div><div><b>3.0M</b><span>Pieces a month</span></div><div><b>2026</b><span>Smart factory, group-wide</span></div></div>
+      </div>
+    </div>
+
+    <div class="tour-copy" data-chapter="1">
+      <div class="line" data-in="0.02" data-out="0.48">
+        <p class="eyebrow">02 · Knit &amp; dye</p>
+        <h2 class="h1">Yarn in. Fabric out.</h2>
+        <div class="data"><div><b>35 <small>MT</small></b><span>Knitting, per day</span></div></div>
+      </div>
+      <div class="line" data-in="0.55" data-out="0.98">
+        <p class="eyebrow">Dyeing, finishing, print</p>
+        <h2 class="h1">Colour at scale.</h2>
+        <div class="data"><div><b>70 <small>MT</small></b><span>Dyeing &amp; finishing, per day</span></div><div><b>10 <small>MT</small></b><span>All-over print, per day</span></div></div>
+        <p>Plus knit and woven washing, in-house.</p>
+      </div>
+    </div>
+
+    <div class="tour-copy" data-chapter="2">
+      <div class="line" data-in="0.02" data-out="0.48">
+        <p class="eyebrow">03 · Cut &amp; sew</p>
+        <h2 class="h1">Precision, hand to hand.</h2>
+        <div class="data"><div><b>200</b><span>Sewing modules</span></div><div><b>5.8M</b><span>Pieces a month</span></div></div>
+      </div>
+      <div class="line" data-in="0.55" data-out="0.98">
+        <p class="eyebrow">Five cut &amp; sew units</p>
+        <h2 class="h1">34,600 SAH a day.</h2>
+        <p>In-house screen print at around 120,000 pieces a day and embroidery at around 10,000, so embellishment never leaves the roof.</p>
+      </div>
+    </div>
+
+    <div class="tour-copy" data-chapter="3">
+      <div class="line" data-in="0.02" data-out="0.42">
+        <p class="eyebrow">04 · Design &amp; ship</p>
+        <h2 class="h1">From the studio to the world.</h2>
+        <p>CLO 3D sample development, 3D knit-structure simulation and a virtual showroom, beside the mother unit in Narayanganj.</p>
+      </div>
+      <div class="line" data-in="0.50" data-out="0.98">
+        <p class="eyebrow">Four continents</p>
+        <h2 class="h1">Trusted by 50+ global brands.</h2>
+        <p>Europe · UK · North America · Asia · Australia. Duty-free to the EU, UK, Canada, Australia, South Korea and Japan.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- chapter rail (fixed, desktop) -->
+<aside class="rail" id="rail" aria-hidden="true">
+  <div class="track"><i id="rail-fill"></i></div>
+  <ol>
+    <li data-ch="0"><small>01</small>Approach</li>
+    <li data-ch="1"><small>02</small>Knit &amp; Dye</li>
+    <li data-ch="2"><small>03</small>Cut &amp; Sew</li>
+    <li data-ch="3"><small>04</small>Design &amp; Ship</li>
+  </ol>
+</aside>
+
+<!-- mobile / reduced-motion tour: poster + muted clip per chapter -->
+<section class="tour-mobile s-ink" id="tour-mobile" aria-label="Factory tour, yarn to shipment">
+  <figure>
+    <div class="media"><img src="assets/posters/approach.jpg" alt="Asrotex factory building exterior, Narayanganj" loading="lazy" /><video muted loop playsinline preload="none" data-src="assets/video/approach.mp4" poster="assets/posters/approach.jpg" aria-hidden="true"></video></div>
+    <figcaption><p class="eyebrow">01 · The approach</p><h2 class="h3">Five units. One system.</h2><p>Narayanganj and Gazipur, Bangladesh. Five cut &amp; sew units, a textile division and an accessories division, run to a single group standard.</p></figcaption>
+  </figure>
+  <figure>
+    <div class="media"><img src="assets/posters/knit-dye.jpg" alt="Circular knitting machines in the Asrotex knitting hall" loading="lazy" /><video muted loop playsinline preload="none" data-src="assets/video/knit-dye.mp4" poster="assets/posters/knit-dye.jpg" aria-hidden="true"></video></div>
+    <figcaption><p class="eyebrow">02 · Knit &amp; dye</p><h2 class="h3">Yarn in. Fabric out.</h2><div class="data"><div><b>35 MT</b><span>Knitting / day</span></div><div><b>70 MT</b><span>Dyeing &amp; finishing / day</span></div><div><b>10 MT</b><span>All-over print / day</span></div></div></figcaption>
+  </figure>
+  <figure>
+    <div class="media"><img src="assets/posters/cut-sew.jpg" alt="Automatic fabric cutter on the Asrotex cutting floor" loading="lazy" /><video muted loop playsinline preload="none" data-src="assets/video/cut-sew.mp4" poster="assets/posters/cut-sew.jpg" aria-hidden="true"></video></div>
+    <figcaption><p class="eyebrow">03 · Cut &amp; sew</p><h2 class="h3">Precision, hand to hand.</h2><div class="data"><div><b>200</b><span>Sewing modules</span></div><div><b>5.8M</b><span>Pieces / month</span></div><div><b>34,600</b><span>SAH / day</span></div></div></figcaption>
+  </figure>
+  <figure>
+    <div class="media"><img src="assets/posters/design-ship.jpg" alt="Asrotex Design Studio with garment racks and mood boards" loading="lazy" /><video muted loop playsinline preload="none" data-src="assets/video/design-ship.mp4" poster="assets/posters/design-ship.jpg" aria-hidden="true"></video></div>
+    <figcaption><p class="eyebrow">04 · Design &amp; ship</p><h2 class="h3">From the studio to 50+ global brands.</h2><p>Europe · UK · North America · Asia · Australia. Duty-free to the EU, UK, Canada, Australia, South Korea and Japan.</p></figcaption>
+  </figure>
+</section>
+
+<!-- ====================================================== 4 · VERTICAL CAPABILITY -->
+<section class="section s-paper" id="capabilities">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow reveal">Vertical capability</p>
+      <h2 class="h2 reveal" style="--d:1">Everything between the yarn and the carton, under one roof.</h2>
+      <p class="lede reveal" style="--d:2">Textile, apparel and accessories divisions run as one system, so lead time, quality and cost are controlled from the first cone of yarn to the packed shipment.</p>
+    </div>
+
+    <svg class="cap-line reveal-line" viewBox="0 0 1200 56" preserveAspectRatio="none" aria-hidden="true">
+      <path pathLength="1" d="M20 40 C 200 40, 200 10, 400 10 S 600 40, 800 40 S 1000 10, 1180 10" />
+      <circle cx="20" cy="40" r="4" /><circle cx="600" cy="25" r="4" /><circle cx="1180" cy="10" r="4" />
+      <text x="600" y="50" text-anchor="middle">One roof</text>
+    </svg>
+
+    <div class="cap-cols">
+      <article class="cap reveal">
+        <p class="eyebrow">Textile division</p>
+        <h3 class="h3">Knit, dye, finish, print, wash</h3>
+        <dl>
+          <dt>35<small>MT / day</small></dt><dd>Knitting</dd>
+          <dt>70<small>MT / day</small></dt><dd>Dyeing &amp; finishing</dd>
+          <dt>10<small>MT / day</small></dt><dd>All-over print</dd>
+          <dt>Knit + woven</dt><dd>Washing</dd>
+        </dl>
+      </article>
+      <article class="cap reveal" style="--d:1">
+        <p class="eyebrow">Apparel division</p>
+        <h3 class="h3">Cut, sew, embellish, pack</h3>
+        <dl>
+          <dt>5</dt><dd>Cut &amp; sew units</dd>
+          <dt>200</dt><dd>Sewing modules</dd>
+          <dt>~5.8M<small>pcs / month</small></dt><dd>Sewing capacity</dd>
+          <dt>34,600<small>SAH / day</small></dt><dd>Standard allowed hours</dd>
+          <dt>~120,000<small>pcs / day</small></dt><dd>Screen print, in-house</dd>
+          <dt>~10,000<small>pcs / day</small></dt><dd>Embroidery, in-house</dd>
+        </dl>
+      </article>
+      <article class="cap reveal" style="--d:2">
+        <p class="eyebrow">Accessories division</p>
+        <h3 class="h3">Trims made beside the line</h3>
+        <ul class="plain">
+          <li>Sewing thread</li>
+          <li>Elastic</li>
+          <li>Poly</li>
+          <li>Labels</li>
+          <li>Draw cord</li>
+          <li>Offset printing</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================== 5 · OUR UNITS -->
+<section class="section s-ink" id="units">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow reveal">Our units</p>
+      <h2 class="h2 reveal" style="--d:1">Five units in two districts, one group standard.</h2>
+      <p class="lede reveal" style="--d:2">All manufacturing sits in Bangladesh's knit-apparel heartland around Dhaka, with the design studio beside the mother unit in Narayanganj.</p>
+    </div>
+    <div class="units-layout">
+      <div class="bd-map reveal">
+        <svg viewBox="0 0 483 649" role="img" aria-label="Map of Bangladesh showing Asrotex units in Narayanganj and Gazipur">
+          <path class="land" d="M51,11L49,19L46,22L60,24L66,35L64,38L58,37L48,45L49,50L47,52L37,55L31,59L29,66L32,67L32,72L28,73L25,81L22,83L25,90L25,96L28,98L39,94L45,102L59,111L58,117L62,118L68,125L67,126L74,126L79,130L82,130L87,126L93,125L97,130L96,138L98,142L107,149L113,149L114,152L109,155L109,159L107,159L108,161L105,164L97,161L92,164L85,164L79,161L72,161L70,163L58,161L60,166L58,168L58,179L53,184L54,186L48,190L46,195L38,194L33,187L27,189L30,192L30,196L20,207L16,217L22,224L22,227L33,237L40,239L52,247L58,246L66,250L68,253L71,252L76,254L79,251L82,251L88,258L86,268L88,271L83,275L86,276L86,281L88,282L86,286L89,285L90,288L87,289L88,293L86,296L83,296L78,301L72,301L73,307L70,309L72,311L70,316L70,324L73,325L72,328L77,327L79,333L83,337L93,339L93,344L89,347L90,353L87,356L88,359L83,360L85,361L85,364L90,365L91,367L95,364L96,366L104,366L107,369L110,367L112,368L104,379L101,380L100,383L102,388L99,396L102,395L104,403L107,403L110,406L110,410L105,417L105,419L110,423L107,427L110,431L108,437L114,450L112,455L116,464L115,467L120,473L121,478L124,479L118,485L123,493L122,506L124,509L124,514L127,516L130,514L132,504L129,505L127,503L133,502L135,504L132,516L135,519L137,526L134,530L142,528L139,526L141,524L141,517L139,513L139,507L141,505L138,505L133,501L136,497L133,494L136,491L136,494L139,497L135,500L143,504L143,507L141,508L142,513L144,511L146,515L149,508L144,511L143,510L149,505L140,489L142,484L145,487L143,490L147,497L147,491L151,486L152,487L149,492L150,500L152,502L152,508L149,514L150,521L154,523L160,517L158,513L159,505L164,501L160,491L163,491L165,488L162,481L160,484L158,482L158,479L160,478L158,469L160,466L155,459L156,452L158,453L157,458L163,466L161,471L167,486L167,490L165,492L166,495L171,483L167,476L168,472L174,481L168,500L169,510L167,511L167,519L170,524L173,524L171,520L173,518L172,513L175,515L175,519L180,520L183,517L175,509L176,506L180,511L183,510L184,512L188,509L190,509L191,512L195,511L196,507L200,506L198,491L194,489L201,484L201,476L205,479L204,489L207,494L207,499L209,500L212,498L210,491L215,487L214,482L218,478L215,477L216,475L218,475L221,479L217,482L217,489L212,492L215,496L219,495L220,490L228,482L233,482L235,479L236,480L234,484L229,484L223,490L221,498L216,501L216,507L219,509L222,508L223,513L228,515L236,514L239,511L246,490L249,487L251,488L248,492L249,494L260,483L274,463L276,463L275,467L278,465L277,463L281,457L282,466L276,476L275,487L273,487L273,475L276,473L276,470L273,470L271,472L272,476L262,487L263,493L261,494L260,490L256,491L249,498L244,508L245,510L249,510L251,512L249,510L250,508L258,506L258,504L273,487L274,492L257,512L261,510L262,513L260,515L265,513L268,509L267,507L271,506L273,498L276,495L281,495L282,497L275,499L275,506L282,501L283,496L281,495L285,492L286,493L294,482L297,469L296,459L300,451L290,441L289,433L284,429L278,413L273,411L280,411L280,409L273,404L273,401L271,400L272,397L266,390L261,388L263,386L263,382L271,374L274,368L265,361L263,357L266,355L267,357L275,354L280,361L280,365L277,370L279,394L290,410L290,406L292,408L292,415L296,422L316,436L325,448L328,448L333,442L332,441L336,440L342,431L341,426L335,421L337,420L339,422L345,416L350,417L351,416L348,415L348,413L352,413L356,416L354,412L355,409L361,420L372,429L387,448L391,464L390,467L395,472L398,482L399,479L401,481L401,496L405,502L404,504L406,508L399,528L403,532L399,535L402,542L399,543L405,549L411,545L411,540L413,540L414,546L411,550L409,550L409,552L418,565L419,581L432,596L436,607L442,615L444,621L448,624L446,615L439,602L440,592L431,582L431,567L436,557L451,548L456,553L458,560L470,560L473,571L475,571L478,567L472,549L471,516L473,510L471,497L474,495L470,481L472,480L474,482L472,473L473,470L469,456L465,420L461,417L459,404L451,398L451,389L453,386L449,380L450,375L448,367L453,366L450,357L451,353L449,352L445,341L445,333L441,325L442,317L438,316L437,322L435,323L435,319L430,314L422,321L421,324L419,324L413,320L411,315L409,315L408,325L411,341L407,346L403,346L399,349L395,356L390,359L395,373L395,380L397,381L394,385L391,384L392,387L385,393L380,393L375,397L373,394L371,395L369,393L365,379L362,375L363,372L358,368L360,367L355,362L352,370L355,384L351,385L345,374L344,359L342,358L345,354L342,354L338,340L333,336L334,335L329,328L329,323L333,323L333,319L330,319L328,315L330,312L336,312L336,307L338,304L336,297L340,294L340,290L344,287L351,288L353,282L351,279L352,274L373,278L377,275L379,267L378,264L380,262L382,268L389,271L389,261L395,264L398,263L399,267L402,271L404,271L407,261L405,252L409,249L413,252L410,247L413,245L423,247L429,241L430,242L429,228L437,205L435,195L436,192L443,189L452,196L457,196L463,193L462,189L444,173L438,173L431,167L426,167L418,162L389,164L379,168L374,168L371,165L356,167L338,160L318,162L301,166L292,166L287,163L285,165L275,163L252,166L223,158L205,150L195,151L193,148L192,138L195,130L196,111L193,105L191,92L196,82L193,80L195,76L192,76L188,71L188,66L184,59L175,56L173,60L177,62L178,67L171,72L171,78L165,79L162,75L154,76L152,73L145,75L137,69L134,64L128,62L124,58L123,50L119,42L123,40L120,39L117,34L109,29L106,29L105,35L108,35L108,38L110,36L113,39L112,42L120,44L118,49L109,51L101,45L101,49L95,51L89,44L80,47L78,45L81,42L80,40L84,39L79,35L78,31L65,24L59,18L54,17Z" />
+          <path class="land" d="M331,456L328,457L321,454L321,470L318,479L311,487L312,492L318,488L320,491L321,489L318,487L330,477L332,471Z" />
+          <path class="land" d="M356,433L356,443L363,454L370,453L370,446L359,432Z" />
+          <path class="land" d="M311,459L311,466L304,482L302,483L304,484L302,489L305,487L312,474L313,466L315,465L315,468L317,462L315,461L314,463Z" />
+          <path class="land" d="M344,420L343,425L352,430L354,424L349,420Z" />
+          <path class="land" d="M348,432L346,432L341,438L341,442L343,444L349,439Z" />
+          <g class="port"><circle cx="393.9" cy="457" r="4" /><text x="404" y="461">Chittagong port</text></g>
+          <g class="pin"><circle class="halo" cx="254.4" cy="284.5" r="6" /><circle class="core" cx="254.4" cy="284.5" r="4.5" /><text x="112" y="279">Gazipur<tspan class="sub" x="112" dy="15">1 unit · Asrotex Ltd</tspan></text></g>
+          <g class="pin"><circle class="halo" cx="262.3" cy="324" r="6" /><circle class="core" cx="262.3" cy="324" r="4.5" /><text x="276" y="328">Narayanganj<tspan class="sub" x="276" dy="15">4 units · design studio</tspan></text></g>
+        </svg>
+        <div class="leg">Bangladesh · 5 units · 17,000 people</div>
+      </div>
+      <div class="unit-grid">
+        <article class="unit mother reveal">
+          <span class="tag">Mother unit · smart factory 2026</span>
+          <p class="loc">Narayanganj</p>
+          <h3 class="h3">Fariha Knit Tex Ltd</h3>
+          <div class="facts"><div><b>76</b><span>Sewing modules</span></div><div><b>3.0M</b><span>Pieces / month</span></div><div><b>2,200</b><span>Machines</span></div></div>
+        </article>
+        <article class="unit reveal" style="--d:1">
+          <p class="loc">Narayanganj</p>
+          <h3 class="h3">Lariz Fashion Ltd</h3>
+          <div class="facts"><div><b>40</b><span>Sewing modules</span></div><div><b>1.5M</b><span>Pieces / month</span></div></div>
+        </article>
+        <article class="unit reveal" style="--d:2">
+          <p class="loc">Narayanganj</p>
+          <h3 class="h3">Asrotex</h3>
+          <div class="facts"><div><b>28</b><span>Sewing modules</span></div><div><b>1.1M</b><span>Pieces / month</span></div></div>
+        </article>
+        <article class="unit reveal" style="--d:3">
+          <p class="loc">Gazipur</p>
+          <h3 class="h3">Asrotex Ltd</h3>
+          <div class="facts"><div><b>28</b><span>Sewing modules</span></div><div><b>1.1M</b><span>Pieces / month</span></div></div>
+        </article>
+        <article class="unit reveal" style="--d:4">
+          <p class="loc">Narayanganj</p>
+          <h3 class="h3">Sensible Fashion Ltd</h3>
+          <div class="facts"><div><b>24</b><span>Sewing modules</span></div><div><b>0.8M</b><span>Pieces / month</span></div></div>
+        </article>
+        <article class="unit studio reveal" style="--d:5">
+          <p class="loc">Narayanganj</p>
+          <h3 class="h3">Asrotex Design Studio</h3>
+          <p>Design direction, CLO 3D development and a 3D virtual showroom, beside the mother unit.</p>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================== 6 · PRODUCTS -->
+<section class="section s-paper" id="products">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow reveal">Product capabilities</p>
+      <h2 class="h2 reveal" style="--d:1">Knitwear for every day, and for the days that matter.</h2>
+      <p class="lede reveal" style="--d:2">Men's, women's and kids' knit apparel across four categories, weighted to the volumes global brands actually buy.</p>
+    </div>
+
+    <div class="prow reveal">
+      <h3 class="h3"><small>Category 01</small>Everyday Essentials</h3>
+      <p class="items">Crew-neck tees, polos, lounge pants and joggers, oversized knit hoodies, knit shorts, knit sets, ribbed lounge leggings, sleep sets.</p>
+      <div class="share" style="--w:65%"><div class="num">65%</div><div class="bar"><i></i></div><span class="cap-label">Capacity share</span></div>
+    </div>
+    <div class="prow reveal">
+      <h3 class="h3"><small>Category 02</small>Kids Wear</h3>
+      <p class="items">Tees, sweatshirts, joggers, dresses.</p>
+      <div class="share" style="--w:15%"><div class="num">15%</div><div class="bar"><i></i></div><span class="cap-label">Capacity share</span></div>
+    </div>
+    <div class="prow reveal">
+      <h3 class="h3"><small>Category 03</small>Elevated Styles</h3>
+      <p class="items">Asymmetrical knit dresses, ribbed flared pants.</p>
+      <div class="share" style="--w:10%"><div class="num">10%</div><div class="bar"><i></i></div><span class="cap-label">Capacity share</span></div>
+    </div>
+    <div class="prow reveal">
+      <h3 class="h3"><small>Category 04</small>Active Essentials</h3>
+      <p class="items">Performance leggings, training tops, running shorts.</p>
+      <div class="share" style="--w:10%"><div class="num">10%</div><div class="bar"><i></i></div><span class="cap-label">Capacity share</span></div>
+    </div>
+
+    <div class="callouts">
+      <div class="callout reveal"><p class="eyebrow">Kids</p><p>Full kids' programme across tees, sweatshirts, joggers and dresses.</p></div>
+      <div class="callout reveal" style="--d:1"><p class="eyebrow">Medical scrubs</p><p>Healthcare workwear made on the same zero-tolerance quality system.</p></div>
+      <div class="callout reveal" style="--d:2"><p class="eyebrow">Adaptive apparel</p><p>Garments engineered for ease of dressing, with biomechanics in the design brief.</p></div>
+      <div class="callout icons reveal" style="--d:3" aria-label="Men's, women's and kids' ranges">
+        <figure><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M13 8l6-3h2l6 3 6 5-4 5-3-2v18H14V16l-3 2-4-5z"/></svg><figcaption>Men's</figcaption></figure>
+        <figure><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M15 6h10l2 7-2 7 5 14H10l5-14-2-7z"/><path d="M14 9l-4 4 3 2M26 9l4 4-3 2"/></svg><figcaption>Women's</figcaption></figure>
+        <figure><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M15 12l4-2h2l4 2 4 3-3 4-2-1v14H16V18l-2 1-3-4z"/></svg><figcaption>Kids'</figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================== 7 · DESIGN STUDIO -->
+<section class="section s-ink" id="studio">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow reveal">Asrotex Design Studio · Narayanganj</p>
+      <h2 class="h2 reveal" style="--d:1">Design that starts with the consumer and ends in a 3D showroom.</h2>
+      <p class="lede reveal" style="--d:2">A five-step development process built on WGSN forecasting, CLO 3D and a physical showroom beside the factory floor.</p>
+    </div>
+
+    <ol class="steps">
+      <li class="step reveal"><span class="idx">01</span><h3 class="h3">Inspiration</h3><p>Customer requirements, consumer feedback, exhibitions, WGSN forecasting and social &amp; e-commerce trend intelligence.</p></li>
+      <li class="step reveal" style="--d:1"><span class="idx">02</span><h3 class="h3">Design direction</h3><p>Mood, colour, trend and embellishment boards that set the season.</p></li>
+      <li class="step reveal" style="--d:2"><span class="idx">03</span><h3 class="h3">R&amp;D</h3><p>CLO 3D sample development and 3D knit-structure simulation, including jacquard.</p></li>
+      <li class="step reveal" style="--d:3"><span class="idx">04</span><h3 class="h3">Sample making</h3><p>Physical samples made metres from the sewing floor, on production machines.</p></li>
+      <li class="step reveal" style="--d:4"><span class="idx">05</span><h3 class="h3">Presentation</h3><p>3D virtual showroom for remote review, physical showroom for the visit.</p></li>
+    </ol>
+
+    <div class="studio-media">
+      <figure class="reveal"><img src="assets/photos/studio-floor.jpg" alt="Asrotex Design Studio: long meeting table, garment racks and glass-walled rooms" loading="lazy" /><figcaption>Design floor</figcaption></figure>
+      <figure class="reveal" style="--d:1"><img src="assets/photos/studio-lobby.jpg" alt="Studio lobby with lounge seating and view onto the design floor" loading="lazy" /><figcaption>Studio lobby</figcaption></figure>
+      <figure class="reveal" style="--d:2"><img src="assets/photos/studio-colour-wall.jpg" alt="Colour wall at the entrance of the Asrotex Design Studio" loading="lazy" /><figcaption>Showroom entrance</figcaption></figure>
+    </div>
+
+    <div class="studio-foot">
+      <div class="tools reveal"><span>WGSN</span><span>CLO 3D</span><span>3D knit simulation</span><span>Virtual showroom</span></div>
+      <a class="textlink reveal" href="https://discover.matterport.com/space/on1w3JZ2QZY" target="_blank" rel="noopener">Take the virtual tour <svg viewBox="0 0 14 14" aria-hidden="true"><path d="M3 11L11 3M5 3h6v6" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================== 8 · THE ASROTEX WAY -->
+<section class="section s-paper way" id="way">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow reveal">The Asrotex Way</p>
+      <h2 class="h2 reveal" style="--d:1">Designed with the consumer. Delivered with the calendar.</h2>
+      <p class="lede reveal" style="--d:2">Two disciplines, one operating rhythm: what we design has to scale, and what we build has to ship on time.</p>
+    </div>
+    <div class="way-cols">
+      <div>
+        <h3 class="h2 reveal">Design <span class="chev" aria-hidden="true">››</span></h3>
+        <ul>
+          <li class="reveal" style="--d:1"><i>01</i>Consumer centric</li>
+          <li class="reveal" style="--d:2"><i>02</i>Customer collaborations</li>
+          <li class="reveal" style="--d:3"><i>03</i>Fashion forward</li>
+          <li class="reveal" style="--d:4"><i>04</i>Biomechanics</li>
+          <li class="reveal" style="--d:5"><i>05</i>Design engineering</li>
+          <li class="reveal" style="--d:6"><i>06</i>Product craftsmanship</li>
+          <li class="reveal" style="--d:7"><i>07</i>Scalability mindset</li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="h2 reveal" style="--d:1">Delivery <span class="chev" aria-hidden="true">››</span></h3>
+        <ul>
+          <li class="reveal" style="--d:2"><i>01</i>Speed &amp; agile turnaround</li>
+          <li class="reveal" style="--d:3"><i>02</i>Onsite product roadshows</li>
+          <li class="reveal" style="--d:4"><i>03</i>Vertical manufacturing</li>
+          <li class="reveal" style="--d:5"><i>04</i>Complex product integration</li>
+          <li class="reveal" style="--d:6"><i>05</i>Lean &amp; autonomation</li>
+          <li class="reveal" style="--d:7"><i>06</i>Scalability in manufacturing</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="service">
+      <p class="eyebrow reveal">Service model</p>
+      <div class="service-grid">
+        <div class="item reveal"><b>100+</b><span>Merchandisers, senior and junior, under one management team</span></div>
+        <div class="item reveal" style="--d:1"><b>24×7</b><span>Service for the customers who work directly with us</span></div>
+        <div class="item reveal" style="--d:2"><b>Daily</b><span>Transparent production reports; buyer-wise SOPs for every account</span></div>
+        <div class="item reveal" style="--d:3"><b>3 wks</b><span>Minimum production lead time on in-house fabrics; 3–4 weeks on special imports</span></div>
+        <div class="item reveal" style="--d:4"><b>Booked</b><span>Capacity booking for long-run partners: lines held, greige stocked</span></div>
+        <div class="item reveal" style="--d:5"><b>4 origins</b><span>Strategic mill partners in China, India, Taiwan and Vietnam</span></div>
+        <div class="item reveal" style="--d:6"><b>Zero</b><span>Tolerance quality system, yarn to finished goods, run by top management</span></div>
+        <div class="item reveal" style="--d:7"><b>One roof</b><span>Own print, embroidery and washing, so embellishment is never outsourced</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================== 9 · PARTNERS -->
+<section class="section s-ink" id="partners">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow reveal">In partnership, in trust</p>
+      <h2 class="h2 reveal" style="--d:1">Trusted by 50+ global brands across four continents.</h2>
+      <p class="lede reveal" style="--d:2">Long-run partners across Europe, the UK, North America, Asia and Australia, many of them booking capacity season after season.</p>
+    </div>
+  </div>
+
+  <div class="marquee reveal" aria-label="Partner brands">
+    <div class="track" id="marquee-track">
+      <span class="brand">New Look</span><span class="brand sans">Crew Clothing Company</span><span class="brand sans">Lidl</span><span class="brand">Siplec</span><span class="brand sans">OVS</span><span class="brand">s.Oliver</span><span class="brand sans">E.Leclerc</span><span class="brand sans">HEMA</span><span class="brand">Gémo</span><span class="brand sans">Kiabi</span><span class="brand">Next</span><span class="brand sans">NKD</span><span class="brand">New Wave Group</span><span class="brand sans">Matalan</span><span class="brand">Belk</span><span class="brand sans">Hurley</span><span class="brand">Perry Ellis</span><span class="brand sans">SanMar</span><span class="brand sans">Giant Tiger</span><span class="brand">Falabella</span><span class="brand">Gloria Jeans</span><span class="brand sans">AS Colour</span>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="markets">
+      <svg class="world reveal-line" viewBox="0 0 1200 640" role="img" aria-label="World map with Asrotex markets: Europe, United Kingdom, North America, Asia and Australia, shipped from Bangladesh">
+        <path class="dots" d="M195,5h0.01 M915,5h0.01 M925,5h0.01 M185,15h0.01 M195,15h0.01 M265,15h0.01 M275,15h0.01 M795,15h0.01 M915,15h0.01 M925,15h0.01 M185,25h0.01 M195,25h0.01 M205,25h0.01 M215,25h0.01 M225,25h0.01 M245,25h0.01 M255,25h0.01 M275,25h0.01 M285,25h0.01 M775,25h0.01 M785,25h0.01 M795,25h0.01 M885,25h0.01 M895,25h0.01 M905,25h0.01 M915,25h0.01 M925,25h0.01 M935,25h0.01 M945,25h0.01 M1035,25h0.01 M195,35h0.01 M205,35h0.01 M215,35h0.01 M225,35h0.01 M235,35h0.01 M255,35h0.01 M265,35h0.01 M275,35h0.01 M285,35h0.01 M295,35h0.01 M305,35h0.01 M315,35h0.01 M765,35h0.01 M775,35h0.01 M875,35h0.01 M885,35h0.01 M895,35h0.01 M905,35h0.01 M915,35h0.01 M925,35h0.01 M935,35h0.01 M945,35h0.01 M1025,35h0.01 M1035,35h0.01 M1045,35h0.01 M1055,35h0.01 M1065,35h0.01 M215,45h0.01 M285,45h0.01 M295,45h0.01 M305,45h0.01 M315,45h0.01 M765,45h0.01 M865,45h0.01 M875,45h0.01 M885,45h0.01 M895,45h0.01 M905,45h0.01 M915,45h0.01 M925,45h0.01 M935,45h0.01 M945,45h0.01 M1035,45h0.01 M175,55h0.01 M185,55h0.01 M195,55h0.01 M235,55h0.01 M255,55h0.01 M265,55h0.01 M275,55h0.01 M285,55h0.01 M295,55h0.01 M305,55h0.01 M315,55h0.01 M755,55h0.01 M765,55h0.01 M855,55h0.01 M865,55h0.01 M875,55h0.01 M885,55h0.01 M895,55h0.01 M905,55h0.01 M915,55h0.01 M925,55h0.01 M935,55h0.01 M945,55h0.01 M955,55h0.01 M985,55h0.01 M1045,55h0.01 M175,65h0.01 M185,65h0.01 M195,65h0.01 M205,65h0.01 M215,65h0.01 M225,65h0.01 M235,65h0.01 M245,65h0.01 M255,65h0.01 M265,65h0.01 M275,65h0.01 M285,65h0.01 M295,65h0.01 M305,65h0.01 M315,65h0.01 M325,65h0.01 M755,65h0.01 M805,65h0.01 M815,65h0.01 M845,65h0.01 M855,65h0.01 M865,65h0.01 M875,65h0.01 M885,65h0.01 M895,65h0.01 M905,65h0.01 M915,65h0.01 M925,65h0.01 M935,65h0.01 M945,65h0.01 M955,65h0.01 M965,65h0.01 M975,65h0.01 M985,65h0.01 M995,65h0.01 M1045,65h0.01 M175,75h0.01 M185,75h0.01 M195,75h0.01 M205,75h0.01 M215,75h0.01 M225,75h0.01 M235,75h0.01 M255,75h0.01 M265,75h0.01 M275,75h0.01 M285,75h0.01 M295,75h0.01 M305,75h0.01 M315,75h0.01 M325,75h0.01 M335,75h0.01 M755,75h0.01 M805,75h0.01 M815,75h0.01 M825,75h0.01 M835,75h0.01 M845,75h0.01 M855,75h0.01 M865,75h0.01 M875,75h0.01 M885,75h0.01 M895,75h0.01 M905,75h0.01 M915,75h0.01 M925,75h0.01 M935,75h0.01 M945,75h0.01 M955,75h0.01 M965,75h0.01 M975,75h0.01 M985,75h0.01 M995,75h0.01 M1035,75h0.01 M1045,75h0.01 M1055,75h0.01 M1065,75h0.01 M65,85h0.01 M75,85h0.01 M195,85h0.01 M205,85h0.01 M215,85h0.01 M225,85h0.01 M235,85h0.01 M265,85h0.01 M275,85h0.01 M295,85h0.01 M305,85h0.01 M315,85h0.01 M325,85h0.01 M335,85h0.01 M345,85h0.01 M665,85h0.01 M675,85h0.01 M755,85h0.01 M765,85h0.01 M805,85h0.01 M815,85h0.01 M825,85h0.01 M835,85h0.01 M845,85h0.01 M855,85h0.01 M865,85h0.01 M875,85h0.01 M885,85h0.01 M895,85h0.01 M905,85h0.01 M915,85h0.01 M925,85h0.01 M935,85h0.01 M945,85h0.01 M955,85h0.01 M965,85h0.01 M975,85h0.01 M985,85h0.01 M995,85h0.01 M1005,85h0.01 M1015,85h0.01 M1025,85h0.01 M1035,85h0.01 M1045,85h0.01 M1055,85h0.01 M1065,85h0.01 M1075,85h0.01 M1085,85h0.01 M1095,85h0.01 M1165,85h0.01 M55,95h0.01 M65,95h0.01 M75,95h0.01 M85,95h0.01 M95,95h0.01 M105,95h0.01 M115,95h0.01 M155,95h0.01 M165,95h0.01 M175,95h0.01 M205,95h0.01 M215,95h0.01 M225,95h0.01 M235,95h0.01 M245,95h0.01 M265,95h0.01 M275,95h0.01 M305,95h0.01 M315,95h0.01 M325,95h0.01 M335,95h0.01 M345,95h0.01 M355,95h0.01 M645,95h0.01 M655,95h0.01 M665,95h0.01 M675,95h0.01 M685,95h0.01 M775,95h0.01 M805,95h0.01 M815,95h0.01 M825,95h0.01 M835,95h0.01 M845,95h0.01 M855,95h0.01 M865,95h0.01 M875,95h0.01 M885,95h0.01 M895,95h0.01 M905,95h0.01 M915,95h0.01 M925,95h0.01 M935,95h0.01 M945,95h0.01 M955,95h0.01 M965,95h0.01 M975,95h0.01 M985,95h0.01 M995,95h0.01 M1005,95h0.01 M1015,95h0.01 M1025,95h0.01 M1035,95h0.01 M1045,95h0.01 M1055,95h0.01 M1065,95h0.01 M1075,95h0.01 M1085,95h0.01 M1095,95h0.01 M1105,95h0.01 M1135,95h0.01 M1145,95h0.01 M45,105h0.01 M55,105h0.01 M65,105h0.01 M75,105h0.01 M85,105h0.01 M95,105h0.01 M105,105h0.01 M115,105h0.01 M125,105h0.01 M135,105h0.01 M145,105h0.01 M155,105h0.01 M165,105h0.01 M175,105h0.01 M185,105h0.01 M195,105h0.01 M205,105h0.01 M215,105h0.01 M225,105h0.01 M235,105h0.01 M255,105h0.01 M265,105h0.01 M275,105h0.01 M285,105h0.01 M305,105h0.01 M335,105h0.01 M345,105h0.01 M355,105h0.01 M635,105h0.01 M645,105h0.01 M655,105h0.01 M665,105h0.01 M675,105h0.01 M685,105h0.01 M695,105h0.01 M765,105h0.01 M775,105h0.01 M785,105h0.01 M795,105h0.01 M805,105h0.01 M815,105h0.01 M825,105h0.01 M835,105h0.01 M845,105h0.01 M855,105h0.01 M865,105h0.01 M875,105h0.01 M885,105h0.01 M895,105h0.01 M905,105h0.01 M915,105h0.01 M925,105h0.01 M935,105h0.01 M945,105h0.01 M955,105h0.01 M965,105h0.01 M975,105h0.01 M985,105h0.01 M995,105h0.01 M1005,105h0.01 M1015,105h0.01 M1025,105h0.01 M1035,105h0.01 M1045,105h0.01 M1055,105h0.01 M1065,105h0.01 M1075,105h0.01 M1085,105h0.01 M1095,105h0.01 M1105,105h0.01 M1115,105h0.01 M1125,105h0.01 M1135,105h0.01 M1145,105h0.01 M1155,105h0.01 M1165,105h0.01 M45,115h0.01 M55,115h0.01 M65,115h0.01 M75,115h0.01 M85,115h0.01 M95,115h0.01 M105,115h0.01 M115,115h0.01 M125,115h0.01 M135,115h0.01 M145,115h0.01 M155,115h0.01 M165,115h0.01 M175,115h0.01 M185,115h0.01 M195,115h0.01 M205,115h0.01 M215,115h0.01 M225,115h0.01 M235,115h0.01 M245,115h0.01 M255,115h0.01 M265,115h0.01 M275,115h0.01 M285,115h0.01 M295,115h0.01 M305,115h0.01 M335,115h0.01 M345,115h0.01 M355,115h0.01 M365,115h0.01 M635,115h0.01 M645,115h0.01 M655,115h0.01 M665,115h0.01 M675,115h0.01 M685,115h0.01 M695,115h0.01 M705,115h0.01 M725,115h0.01 M735,115h0.01 M745,115h0.01 M755,115h0.01 M765,115h0.01 M775,115h0.01 M785,115h0.01 M795,115h0.01 M805,115h0.01 M815,115h0.01 M825,115h0.01 M835,115h0.01 M845,115h0.01 M855,115h0.01 M865,115h0.01 M875,115h0.01 M885,115h0.01 M895,115h0.01 M905,115h0.01 M915,115h0.01 M925,115h0.01 M935,115h0.01 M945,115h0.01 M955,115h0.01 M965,115h0.01 M975,115h0.01 M985,115h0.01 M995,115h0.01 M1005,115h0.01 M1015,115h0.01 M1025,115h0.01 M1035,115h0.01 M1045,115h0.01 M1055,115h0.01 M1065,115h0.01 M1075,115h0.01 M1085,115h0.01 M1095,115h0.01 M1105,115h0.01 M1115,115h0.01 M1125,115h0.01 M1135,115h0.01 M1145,115h0.01 M1155,115h0.01 M1165,115h0.01 M1175,115h0.01 M45,125h0.01 M55,125h0.01 M65,125h0.01 M75,125h0.01 M85,125h0.01 M95,125h0.01 M105,125h0.01 M115,125h0.01 M125,125h0.01 M135,125h0.01 M145,125h0.01 M155,125h0.01 M165,125h0.01 M175,125h0.01 M185,125h0.01 M195,125h0.01 M205,125h0.01 M215,125h0.01 M225,125h0.01 M235,125h0.01 M245,125h0.01 M255,125h0.01 M265,125h0.01 M275,125h0.01 M285,125h0.01 M295,125h0.01 M305,125h0.01 M345,125h0.01 M355,125h0.01 M365,125h0.01 M375,125h0.01 M525,125h0.01 M625,125h0.01 M635,125h0.01 M645,125h0.01 M655,125h0.01 M665,125h0.01 M675,125h0.01 M685,125h0.01 M695,125h0.01 M705,125h0.01 M715,125h0.01 M725,125h0.01 M735,125h0.01 M745,125h0.01 M755,125h0.01 M765,125h0.01 M775,125h0.01 M785,125h0.01 M795,125h0.01 M805,125h0.01 M815,125h0.01 M825,125h0.01 M835,125h0.01 M845,125h0.01 M855,125h0.01 M865,125h0.01 M875,125h0.01 M885,125h0.01 M895,125h0.01 M905,125h0.01 M915,125h0.01 M925,125h0.01 M935,125h0.01 M945,125h0.01 M955,125h0.01 M965,125h0.01 M975,125h0.01 M985,125h0.01 M995,125h0.01 M1005,125h0.01 M1015,125h0.01 M1025,125h0.01 M1035,125h0.01 M1045,125h0.01 M1055,125h0.01 M1065,125h0.01 M1075,125h0.01 M1085,125h0.01 M1095,125h0.01 M1105,125h0.01 M1115,125h0.01 M1125,125h0.01 M1135,125h0.01 M1145,125h0.01 M1155,125h0.01 M1165,125h0.01 M1175,125h0.01 M1185,125h0.01 M1195,125h0.01 M35,135h0.01 M45,135h0.01 M55,135h0.01 M65,135h0.01 M75,135h0.01 M85,135h0.01 M95,135h0.01 M105,135h0.01 M115,135h0.01 M125,135h0.01 M135,135h0.01 M145,135h0.01 M155,135h0.01 M165,135h0.01 M175,135h0.01 M185,135h0.01 M195,135h0.01 M205,135h0.01 M215,135h0.01 M225,135h0.01 M235,135h0.01 M245,135h0.01 M255,135h0.01 M265,135h0.01 M275,135h0.01 M285,135h0.01 M295,135h0.01 M305,135h0.01 M335,135h0.01 M345,135h0.01 M355,135h0.01 M365,135h0.01 M505,135h0.01 M515,135h0.01 M525,135h0.01 M535,135h0.01 M625,135h0.01 M635,135h0.01 M645,135h0.01 M665,135h0.01 M675,135h0.01 M685,135h0.01 M695,135h0.01 M715,135h0.01 M725,135h0.01 M735,135h0.01 M745,135h0.01 M755,135h0.01 M765,135h0.01 M775,135h0.01 M785,135h0.01 M795,135h0.01 M805,135h0.01 M815,135h0.01 M825,135h0.01 M835,135h0.01 M845,135h0.01 M855,135h0.01 M865,135h0.01 M875,135h0.01 M885,135h0.01 M895,135h0.01 M905,135h0.01 M915,135h0.01 M925,135h0.01 M935,135h0.01 M945,135h0.01 M955,135h0.01 M965,135h0.01 M975,135h0.01 M985,135h0.01 M995,135h0.01 M1005,135h0.01 M1015,135h0.01 M1025,135h0.01 M1035,135h0.01 M1045,135h0.01 M1055,135h0.01 M1065,135h0.01 M1075,135h0.01 M1085,135h0.01 M1095,135h0.01 M1105,135h0.01 M1115,135h0.01 M1125,135h0.01 M1135,135h0.01 M1145,135h0.01 M1155,135h0.01 M1165,135h0.01 M1175,135h0.01 M1185,135h0.01 M1195,135h0.01 M55,145h0.01 M65,145h0.01 M75,145h0.01 M85,145h0.01 M95,145h0.01 M105,145h0.01 M115,145h0.01 M125,145h0.01 M135,145h0.01 M145,145h0.01 M155,145h0.01 M165,145h0.01 M175,145h0.01 M185,145h0.01 M195,145h0.01 M205,145h0.01 M215,145h0.01 M225,145h0.01 M235,145h0.01 M245,145h0.01 M255,145h0.01 M265,145h0.01 M275,145h0.01 M285,145h0.01 M295,145h0.01 M305,145h0.01 M315,145h0.01 M325,145h0.01 M345,145h0.01 M355,145h0.01 M365,145h0.01 M515,145h0.01 M525,145h0.01 M615,145h0.01 M625,145h0.01 M635,145h0.01 M645,145h0.01 M655,145h0.01 M665,145h0.01 M675,145h0.01 M685,145h0.01 M695,145h0.01 M705,145h0.01 M715,145h0.01 M725,145h0.01 M735,145h0.01 M745,145h0.01 M755,145h0.01 M765,145h0.01 M775,145h0.01 M785,145h0.01 M795,145h0.01 M805,145h0.01 M815,145h0.01 M825,145h0.01 M835,145h0.01 M845,145h0.01 M855,145h0.01 M865,145h0.01 M875,145h0.01 M885,145h0.01 M895,145h0.01 M905,145h0.01 M915,145h0.01 M925,145h0.01 M935,145h0.01 M945,145h0.01 M955,145h0.01 M965,145h0.01 M975,145h0.01 M985,145h0.01 M995,145h0.01 M1005,145h0.01 M1015,145h0.01 M1025,145h0.01 M1035,145h0.01 M1045,145h0.01 M1055,145h0.01 M1065,145h0.01 M1075,145h0.01 M1085,145h0.01 M1095,145h0.01 M1105,145h0.01 M1115,145h0.01 M1125,145h0.01 M1135,145h0.01 M1145,145h0.01 M1155,145h0.01 M45,155h0.01 M55,155h0.01 M65,155h0.01 M75,155h0.01 M85,155h0.01 M95,155h0.01 M105,155h0.01 M115,155h0.01 M125,155h0.01 M135,155h0.01 M145,155h0.01 M155,155h0.01 M165,155h0.01 M175,155h0.01 M185,155h0.01 M195,155h0.01 M205,155h0.01 M215,155h0.01 M225,155h0.01 M235,155h0.01 M245,155h0.01 M255,155h0.01 M265,155h0.01 M275,155h0.01 M325,155h0.01 M355,155h0.01 M365,155h0.01 M605,155h0.01 M615,155h0.01 M625,155h0.01 M635,155h0.01 M655,155h0.01 M665,155h0.01 M675,155h0.01 M685,155h0.01 M695,155h0.01 M705,155h0.01 M715,155h0.01 M725,155h0.01 M735,155h0.01 M745,155h0.01 M755,155h0.01 M765,155h0.01 M775,155h0.01 M785,155h0.01 M795,155h0.01 M805,155h0.01 M815,155h0.01 M825,155h0.01 M835,155h0.01 M845,155h0.01 M855,155h0.01 M865,155h0.01 M875,155h0.01 M885,155h0.01 M895,155h0.01 M905,155h0.01 M915,155h0.01 M925,155h0.01 M935,155h0.01 M945,155h0.01 M955,155h0.01 M965,155h0.01 M975,155h0.01 M985,155h0.01 M995,155h0.01 M1005,155h0.01 M1015,155h0.01 M1025,155h0.01 M1035,155h0.01 M1045,155h0.01 M1055,155h0.01 M1065,155h0.01 M1075,155h0.01 M1085,155h0.01 M1095,155h0.01 M1105,155h0.01 M1115,155h0.01 M1125,155h0.01 M1135,155h0.01 M1145,155h0.01 M1155,155h0.01 M1165,155h0.01 M45,165h0.01 M55,165h0.01 M65,165h0.01 M75,165h0.01 M85,165h0.01 M95,165h0.01 M105,165h0.01 M115,165h0.01 M125,165h0.01 M135,165h0.01 M145,165h0.01 M155,165h0.01 M165,165h0.01 M175,165h0.01 M185,165h0.01 M195,165h0.01 M205,165h0.01 M215,165h0.01 M225,165h0.01 M235,165h0.01 M245,165h0.01 M255,165h0.01 M265,165h0.01 M325,165h0.01 M335,165h0.01 M345,165h0.01 M595,165h0.01 M605,165h0.01 M615,165h0.01 M625,165h0.01 M635,165h0.01 M655,165h0.01 M665,165h0.01 M675,165h0.01 M685,165h0.01 M695,165h0.01 M705,165h0.01 M715,165h0.01 M725,165h0.01 M735,165h0.01 M745,165h0.01 M755,165h0.01 M765,165h0.01 M775,165h0.01 M785,165h0.01 M795,165h0.01 M805,165h0.01 M815,165h0.01 M825,165h0.01 M835,165h0.01 M845,165h0.01 M855,165h0.01 M865,165h0.01 M875,165h0.01 M885,165h0.01 M895,165h0.01 M905,165h0.01 M915,165h0.01 M925,165h0.01 M935,165h0.01 M945,165h0.01 M955,165h0.01 M965,165h0.01 M975,165h0.01 M985,165h0.01 M995,165h0.01 M1005,165h0.01 M1015,165h0.01 M1025,165h0.01 M1035,165h0.01 M1045,165h0.01 M1055,165h0.01 M1065,165h0.01 M1075,165h0.01 M1085,165h0.01 M1105,165h0.01 M1115,165h0.01 M1125,165h0.01 M1135,165h0.01 M1145,165h0.01 M55,175h0.01 M65,175h0.01 M75,175h0.01 M85,175h0.01 M115,175h0.01 M125,175h0.01 M135,175h0.01 M145,175h0.01 M155,175h0.01 M165,175h0.01 M175,175h0.01 M185,175h0.01 M195,175h0.01 M205,175h0.01 M215,175h0.01 M225,175h0.01 M235,175h0.01 M245,175h0.01 M255,175h0.01 M265,175h0.01 M325,175h0.01 M335,175h0.01 M345,175h0.01 M365,175h0.01 M605,175h0.01 M615,175h0.01 M625,175h0.01 M635,175h0.01 M655,175h0.01 M665,175h0.01 M675,175h0.01 M685,175h0.01 M695,175h0.01 M705,175h0.01 M715,175h0.01 M725,175h0.01 M735,175h0.01 M745,175h0.01 M755,175h0.01 M765,175h0.01 M775,175h0.01 M785,175h0.01 M795,175h0.01 M805,175h0.01 M815,175h0.01 M825,175h0.01 M835,175h0.01 M845,175h0.01 M855,175h0.01 M865,175h0.01 M875,175h0.01 M885,175h0.01 M895,175h0.01 M905,175h0.01 M915,175h0.01 M925,175h0.01 M935,175h0.01 M945,175h0.01 M955,175h0.01 M965,175h0.01 M975,175h0.01 M985,175h0.01 M995,175h0.01 M1005,175h0.01 M1015,175h0.01 M1025,175h0.01 M1035,175h0.01 M1045,175h0.01 M1055,175h0.01 M1065,175h0.01 M1075,175h0.01 M1085,175h0.01 M1105,175h0.01 M1115,175h0.01 M65,185h0.01 M75,185h0.01 M135,185h0.01 M145,185h0.01 M155,185h0.01 M165,185h0.01 M175,185h0.01 M185,185h0.01 M195,185h0.01 M205,185h0.01 M215,185h0.01 M225,185h0.01 M235,185h0.01 M245,185h0.01 M255,185h0.01 M265,185h0.01 M275,185h0.01 M325,185h0.01 M335,185h0.01 M345,185h0.01 M355,185h0.01 M365,185h0.01 M375,185h0.01 M565,185h0.01 M605,185h0.01 M615,185h0.01 M625,185h0.01 M635,185h0.01 M655,185h0.01 M665,185h0.01 M675,185h0.01 M685,185h0.01 M695,185h0.01 M705,185h0.01 M715,185h0.01 M725,185h0.01 M735,185h0.01 M745,185h0.01 M755,185h0.01 M765,185h0.01 M775,185h0.01 M785,185h0.01 M795,185h0.01 M805,185h0.01 M815,185h0.01 M825,185h0.01 M835,185h0.01 M845,185h0.01 M855,185h0.01 M865,185h0.01 M875,185h0.01 M885,185h0.01 M895,185h0.01 M905,185h0.01 M915,185h0.01 M925,185h0.01 M935,185h0.01 M945,185h0.01 M955,185h0.01 M965,185h0.01 M975,185h0.01 M985,185h0.01 M995,185h0.01 M1005,185h0.01 M1015,185h0.01 M1025,185h0.01 M1035,185h0.01 M1095,185h0.01 M1105,185h0.01 M55,195h0.01 M65,195h0.01 M145,195h0.01 M155,195h0.01 M165,195h0.01 M175,195h0.01 M185,195h0.01 M195,195h0.01 M205,195h0.01 M215,195h0.01 M225,195h0.01 M235,195h0.01 M245,195h0.01 M255,195h0.01 M265,195h0.01 M275,195h0.01 M285,195h0.01 M295,195h0.01 M335,195h0.01 M345,195h0.01 M355,195h0.01 M365,195h0.01 M375,195h0.01 M565,195h0.01 M605,195h0.01 M615,195h0.01 M625,195h0.01 M655,195h0.01 M665,195h0.01 M675,195h0.01 M685,195h0.01 M695,195h0.01 M705,195h0.01 M715,195h0.01 M725,195h0.01 M735,195h0.01 M745,195h0.01 M755,195h0.01 M765,195h0.01 M775,195h0.01 M785,195h0.01 M795,195h0.01 M805,195h0.01 M815,195h0.01 M825,195h0.01 M835,195h0.01 M845,195h0.01 M855,195h0.01 M865,195h0.01 M875,195h0.01 M885,195h0.01 M895,195h0.01 M905,195h0.01 M915,195h0.01 M925,195h0.01 M935,195h0.01 M945,195h0.01 M955,195h0.01 M965,195h0.01 M975,195h0.01 M985,195h0.01 M995,195h0.01 M1005,195h0.01 M1015,195h0.01 M1025,195h0.01 M1095,195h0.01 M1105,195h0.01 M45,205h0.01 M145,205h0.01 M155,205h0.01 M165,205h0.01 M175,205h0.01 M185,205h0.01 M195,205h0.01 M205,205h0.01 M215,205h0.01 M225,205h0.01 M235,205h0.01 M245,205h0.01 M255,205h0.01 M265,205h0.01 M275,205h0.01 M285,205h0.01 M295,205h0.01 M305,205h0.01 M325,205h0.01 M335,205h0.01 M345,205h0.01 M355,205h0.01 M365,205h0.01 M375,205h0.01 M385,205h0.01 M555,205h0.01 M565,205h0.01 M575,205h0.01 M605,205h0.01 M615,205h0.01 M625,205h0.01 M635,205h0.01 M645,205h0.01 M655,205h0.01 M665,205h0.01 M675,205h0.01 M685,205h0.01 M695,205h0.01 M705,205h0.01 M715,205h0.01 M725,205h0.01 M735,205h0.01 M745,205h0.01 M755,205h0.01 M765,205h0.01 M775,205h0.01 M785,205h0.01 M795,205h0.01 M805,205h0.01 M815,205h0.01 M825,205h0.01 M835,205h0.01 M845,205h0.01 M855,205h0.01 M865,205h0.01 M875,205h0.01 M885,205h0.01 M895,205h0.01 M905,205h0.01 M915,205h0.01 M925,205h0.01 M935,205h0.01 M945,205h0.01 M955,205h0.01 M965,205h0.01 M975,205h0.01 M985,205h0.01 M995,205h0.01 M1005,205h0.01 M1015,205h0.01 M1025,205h0.01 M1095,205h0.01 M1105,205h0.01 M165,215h0.01 M175,215h0.01 M185,215h0.01 M195,215h0.01 M205,215h0.01 M215,215h0.01 M225,215h0.01 M235,215h0.01 M245,215h0.01 M255,215h0.01 M265,215h0.01 M275,215h0.01 M285,215h0.01 M295,215h0.01 M305,215h0.01 M325,215h0.01 M335,215h0.01 M345,215h0.01 M355,215h0.01 M365,215h0.01 M375,215h0.01 M385,215h0.01 M395,215h0.01 M555,215h0.01 M565,215h0.01 M575,215h0.01 M595,215h0.01 M605,215h0.01 M615,215h0.01 M625,215h0.01 M635,215h0.01 M645,215h0.01 M655,215h0.01 M665,215h0.01 M675,215h0.01 M685,215h0.01 M695,215h0.01 M705,215h0.01 M715,215h0.01 M725,215h0.01 M735,215h0.01 M745,215h0.01 M755,215h0.01 M765,215h0.01 M775,215h0.01 M785,215h0.01 M795,215h0.01 M805,215h0.01 M815,215h0.01 M825,215h0.01 M835,215h0.01 M845,215h0.01 M855,215h0.01 M865,215h0.01 M875,215h0.01 M885,215h0.01 M895,215h0.01 M905,215h0.01 M915,215h0.01 M925,215h0.01 M935,215h0.01 M945,215h0.01 M955,215h0.01 M965,215h0.01 M975,215h0.01 M985,215h0.01 M995,215h0.01 M1005,215h0.01 M1015,215h0.01 M1025,215h0.01 M1035,215h0.01 M1045,215h0.01 M1095,215h0.01 M165,225h0.01 M175,225h0.01 M185,225h0.01 M195,225h0.01 M205,225h0.01 M215,225h0.01 M225,225h0.01 M235,225h0.01 M245,225h0.01 M255,225h0.01 M265,225h0.01 M275,225h0.01 M285,225h0.01 M295,225h0.01 M305,225h0.01 M315,225h0.01 M325,225h0.01 M335,225h0.01 M345,225h0.01 M355,225h0.01 M365,225h0.01 M375,225h0.01 M385,225h0.01 M395,225h0.01 M565,225h0.01 M575,225h0.01 M585,225h0.01 M595,225h0.01 M605,225h0.01 M615,225h0.01 M625,225h0.01 M635,225h0.01 M645,225h0.01 M655,225h0.01 M665,225h0.01 M675,225h0.01 M685,225h0.01 M695,225h0.01 M705,225h0.01 M715,225h0.01 M725,225h0.01 M735,225h0.01 M745,225h0.01 M755,225h0.01 M765,225h0.01 M775,225h0.01 M785,225h0.01 M795,225h0.01 M805,225h0.01 M815,225h0.01 M825,225h0.01 M835,225h0.01 M845,225h0.01 M855,225h0.01 M865,225h0.01 M875,225h0.01 M885,225h0.01 M895,225h0.01 M905,225h0.01 M915,225h0.01 M925,225h0.01 M935,225h0.01 M945,225h0.01 M955,225h0.01 M965,225h0.01 M975,225h0.01 M985,225h0.01 M995,225h0.01 M1005,225h0.01 M1015,225h0.01 M1025,225h0.01 M1035,225h0.01 M1045,225h0.01 M175,235h0.01 M185,235h0.01 M195,235h0.01 M205,235h0.01 M215,235h0.01 M225,235h0.01 M235,235h0.01 M245,235h0.01 M255,235h0.01 M265,235h0.01 M275,235h0.01 M285,235h0.01 M295,235h0.01 M305,235h0.01 M315,235h0.01 M325,235h0.01 M335,235h0.01 M345,235h0.01 M355,235h0.01 M365,235h0.01 M395,235h0.01 M405,235h0.01 M575,235h0.01 M585,235h0.01 M595,235h0.01 M605,235h0.01 M615,235h0.01 M625,235h0.01 M635,235h0.01 M645,235h0.01 M655,235h0.01 M665,235h0.01 M675,235h0.01 M685,235h0.01 M695,235h0.01 M705,235h0.01 M715,235h0.01 M725,235h0.01 M735,235h0.01 M745,235h0.01 M755,235h0.01 M765,235h0.01 M775,235h0.01 M785,235h0.01 M795,235h0.01 M805,235h0.01 M815,235h0.01 M825,235h0.01 M835,235h0.01 M845,235h0.01 M855,235h0.01 M865,235h0.01 M875,235h0.01 M885,235h0.01 M895,235h0.01 M905,235h0.01 M915,235h0.01 M925,235h0.01 M935,235h0.01 M945,235h0.01 M955,235h0.01 M965,235h0.01 M975,235h0.01 M985,235h0.01 M995,235h0.01 M1005,235h0.01 M1015,235h0.01 M1025,235h0.01 M1035,235h0.01 M1045,235h0.01 M175,245h0.01 M185,245h0.01 M195,245h0.01 M205,245h0.01 M215,245h0.01 M225,245h0.01 M235,245h0.01 M245,245h0.01 M255,245h0.01 M265,245h0.01 M275,245h0.01 M285,245h0.01 M295,245h0.01 M305,245h0.01 M315,245h0.01 M325,245h0.01 M335,245h0.01 M345,245h0.01 M355,245h0.01 M365,245h0.01 M395,245h0.01 M405,245h0.01 M575,245h0.01 M585,245h0.01 M595,245h0.01 M605,245h0.01 M615,245h0.01 M625,245h0.01 M635,245h0.01 M645,245h0.01 M655,245h0.01 M665,245h0.01 M675,245h0.01 M685,245h0.01 M695,245h0.01 M705,245h0.01 M715,245h0.01 M725,245h0.01 M735,245h0.01 M745,245h0.01 M755,245h0.01 M765,245h0.01 M775,245h0.01 M785,245h0.01 M795,245h0.01 M805,245h0.01 M815,245h0.01 M825,245h0.01 M835,245h0.01 M845,245h0.01 M855,245h0.01 M865,245h0.01 M875,245h0.01 M885,245h0.01 M895,245h0.01 M905,245h0.01 M915,245h0.01 M925,245h0.01 M935,245h0.01 M945,245h0.01 M955,245h0.01 M965,245h0.01 M975,245h0.01 M985,245h0.01 M995,245h0.01 M1005,245h0.01 M1015,245h0.01 M1025,245h0.01 M1045,245h0.01 M175,255h0.01 M185,255h0.01 M195,255h0.01 M205,255h0.01 M215,255h0.01 M225,255h0.01 M235,255h0.01 M245,255h0.01 M255,255h0.01 M265,255h0.01 M275,255h0.01 M285,255h0.01 M295,255h0.01 M305,255h0.01 M315,255h0.01 M325,255h0.01 M335,255h0.01 M345,255h0.01 M355,255h0.01 M365,255h0.01 M375,255h0.01 M575,255h0.01 M585,255h0.01 M595,255h0.01 M605,255h0.01 M615,255h0.01 M625,255h0.01 M635,255h0.01 M645,255h0.01 M655,255h0.01 M665,255h0.01 M675,255h0.01 M685,255h0.01 M695,255h0.01 M705,255h0.01 M715,255h0.01 M725,255h0.01 M735,255h0.01 M745,255h0.01 M755,255h0.01 M765,255h0.01 M775,255h0.01 M785,255h0.01 M795,255h0.01 M805,255h0.01 M815,255h0.01 M825,255h0.01 M835,255h0.01 M845,255h0.01 M855,255h0.01 M865,255h0.01 M875,255h0.01 M885,255h0.01 M895,255h0.01 M905,255h0.01 M915,255h0.01 M925,255h0.01 M935,255h0.01 M945,255h0.01 M955,255h0.01 M965,255h0.01 M975,255h0.01 M985,255h0.01 M995,255h0.01 M1005,255h0.01 M1015,255h0.01 M1025,255h0.01 M1045,255h0.01 M175,265h0.01 M185,265h0.01 M195,265h0.01 M205,265h0.01 M215,265h0.01 M225,265h0.01 M235,265h0.01 M245,265h0.01 M255,265h0.01 M265,265h0.01 M275,265h0.01 M285,265h0.01 M295,265h0.01 M305,265h0.01 M315,265h0.01 M325,265h0.01 M335,265h0.01 M345,265h0.01 M555,265h0.01 M565,265h0.01 M575,265h0.01 M585,265h0.01 M615,265h0.01 M625,265h0.01 M635,265h0.01 M645,265h0.01 M655,265h0.01 M665,265h0.01 M715,265h0.01 M725,265h0.01 M735,265h0.01 M745,265h0.01 M755,265h0.01 M765,265h0.01 M775,265h0.01 M785,265h0.01 M795,265h0.01 M805,265h0.01 M815,265h0.01 M825,265h0.01 M835,265h0.01 M845,265h0.01 M855,265h0.01 M865,265h0.01 M875,265h0.01 M885,265h0.01 M895,265h0.01 M905,265h0.01 M915,265h0.01 M925,265h0.01 M935,265h0.01 M945,265h0.01 M955,265h0.01 M965,265h0.01 M975,265h0.01 M985,265h0.01 M995,265h0.01 M1005,265h0.01 M1015,265h0.01 M1045,265h0.01 M175,275h0.01 M185,275h0.01 M195,275h0.01 M205,275h0.01 M215,275h0.01 M225,275h0.01 M235,275h0.01 M245,275h0.01 M255,275h0.01 M265,275h0.01 M275,275h0.01 M285,275h0.01 M295,275h0.01 M305,275h0.01 M315,275h0.01 M325,275h0.01 M335,275h0.01 M555,275h0.01 M565,275h0.01 M575,275h0.01 M625,275h0.01 M635,275h0.01 M645,275h0.01 M655,275h0.01 M665,275h0.01 M675,275h0.01 M685,275h0.01 M695,275h0.01 M705,275h0.01 M715,275h0.01 M725,275h0.01 M735,275h0.01 M745,275h0.01 M755,275h0.01 M765,275h0.01 M775,275h0.01 M785,275h0.01 M795,275h0.01 M805,275h0.01 M815,275h0.01 M825,275h0.01 M835,275h0.01 M845,275h0.01 M855,275h0.01 M865,275h0.01 M875,275h0.01 M885,275h0.01 M895,275h0.01 M905,275h0.01 M915,275h0.01 M925,275h0.01 M935,275h0.01 M945,275h0.01 M955,275h0.01 M965,275h0.01 M975,275h0.01 M985,275h0.01 M995,275h0.01 M1035,275h0.01 M185,285h0.01 M195,285h0.01 M205,285h0.01 M215,285h0.01 M225,285h0.01 M235,285h0.01 M245,285h0.01 M255,285h0.01 M265,285h0.01 M275,285h0.01 M285,285h0.01 M295,285h0.01 M305,285h0.01 M315,285h0.01 M325,285h0.01 M335,285h0.01 M555,285h0.01 M565,285h0.01 M575,285h0.01 M625,285h0.01 M655,285h0.01 M665,285h0.01 M675,285h0.01 M685,285h0.01 M695,285h0.01 M705,285h0.01 M715,285h0.01 M725,285h0.01 M735,285h0.01 M745,285h0.01 M755,285h0.01 M765,285h0.01 M775,285h0.01 M785,285h0.01 M795,285h0.01 M805,285h0.01 M815,285h0.01 M825,285h0.01 M835,285h0.01 M845,285h0.01 M855,285h0.01 M865,285h0.01 M875,285h0.01 M885,285h0.01 M895,285h0.01 M905,285h0.01 M915,285h0.01 M925,285h0.01 M935,285h0.01 M945,285h0.01 M955,285h0.01 M965,285h0.01 M975,285h0.01 M995,285h0.01 M1035,285h0.01 M185,295h0.01 M195,295h0.01 M205,295h0.01 M215,295h0.01 M225,295h0.01 M235,295h0.01 M245,295h0.01 M255,295h0.01 M265,295h0.01 M275,295h0.01 M285,295h0.01 M295,295h0.01 M305,295h0.01 M315,295h0.01 M325,295h0.01 M565,295h0.01 M575,295h0.01 M585,295h0.01 M595,295h0.01 M605,295h0.01 M615,295h0.01 M685,295h0.01 M695,295h0.01 M705,295h0.01 M715,295h0.01 M725,295h0.01 M735,295h0.01 M745,295h0.01 M755,295h0.01 M765,295h0.01 M775,295h0.01 M785,295h0.01 M795,295h0.01 M805,295h0.01 M815,295h0.01 M825,295h0.01 M835,295h0.01 M845,295h0.01 M855,295h0.01 M865,295h0.01 M875,295h0.01 M885,295h0.01 M895,295h0.01 M905,295h0.01 M915,295h0.01 M925,295h0.01 M935,295h0.01 M945,295h0.01 M955,295h0.01 M965,295h0.01 M995,295h0.01 M1015,295h0.01 M1025,295h0.01 M1035,295h0.01 M195,305h0.01 M205,305h0.01 M215,305h0.01 M225,305h0.01 M235,305h0.01 M245,305h0.01 M255,305h0.01 M265,305h0.01 M275,305h0.01 M285,305h0.01 M295,305h0.01 M305,305h0.01 M315,305h0.01 M555,305h0.01 M565,305h0.01 M575,305h0.01 M585,305h0.01 M595,305h0.01 M605,305h0.01 M615,305h0.01 M625,305h0.01 M695,305h0.01 M705,305h0.01 M715,305h0.01 M725,305h0.01 M735,305h0.01 M745,305h0.01 M755,305h0.01 M765,305h0.01 M775,305h0.01 M785,305h0.01 M795,305h0.01 M805,305h0.01 M815,305h0.01 M825,305h0.01 M835,305h0.01 M845,305h0.01 M855,305h0.01 M865,305h0.01 M875,305h0.01 M885,305h0.01 M895,305h0.01 M905,305h0.01 M915,305h0.01 M925,305h0.01 M935,305h0.01 M945,305h0.01 M955,305h0.01 M965,305h0.01 M975,305h0.01 M1005,305h0.01 M1015,305h0.01 M205,315h0.01 M215,315h0.01 M225,315h0.01 M235,315h0.01 M245,315h0.01 M255,315h0.01 M265,315h0.01 M275,315h0.01 M285,315h0.01 M295,315h0.01 M305,315h0.01 M315,315h0.01 M545,315h0.01 M555,315h0.01 M565,315h0.01 M575,315h0.01 M585,315h0.01 M595,315h0.01 M605,315h0.01 M615,315h0.01 M625,315h0.01 M635,315h0.01 M645,315h0.01 M655,315h0.01 M665,315h0.01 M675,315h0.01 M685,315h0.01 M695,315h0.01 M705,315h0.01 M715,315h0.01 M725,315h0.01 M735,315h0.01 M745,315h0.01 M755,315h0.01 M765,315h0.01 M775,315h0.01 M785,315h0.01 M795,315h0.01 M805,315h0.01 M815,315h0.01 M825,315h0.01 M835,315h0.01 M845,315h0.01 M855,315h0.01 M865,315h0.01 M875,315h0.01 M885,315h0.01 M895,315h0.01 M905,315h0.01 M915,315h0.01 M925,315h0.01 M935,315h0.01 M945,315h0.01 M955,315h0.01 M965,315h0.01 M975,315h0.01 M205,325h0.01 M215,325h0.01 M225,325h0.01 M235,325h0.01 M245,325h0.01 M255,325h0.01 M265,325h0.01 M315,325h0.01 M535,325h0.01 M545,325h0.01 M555,325h0.01 M565,325h0.01 M575,325h0.01 M585,325h0.01 M595,325h0.01 M605,325h0.01 M615,325h0.01 M625,325h0.01 M635,325h0.01 M645,325h0.01 M655,325h0.01 M665,325h0.01 M675,325h0.01 M685,325h0.01 M695,325h0.01 M705,325h0.01 M715,325h0.01 M725,325h0.01 M735,325h0.01 M755,325h0.01 M765,325h0.01 M775,325h0.01 M785,325h0.01 M795,325h0.01 M805,325h0.01 M815,325h0.01 M825,325h0.01 M835,325h0.01 M845,325h0.01 M855,325h0.01 M865,325h0.01 M875,325h0.01 M885,325h0.01 M895,325h0.01 M905,325h0.01 M915,325h0.01 M925,325h0.01 M935,325h0.01 M945,325h0.01 M955,325h0.01 M965,325h0.01 M975,325h0.01 M215,335h0.01 M225,335h0.01 M235,335h0.01 M245,335h0.01 M255,335h0.01 M535,335h0.01 M545,335h0.01 M555,335h0.01 M565,335h0.01 M575,335h0.01 M585,335h0.01 M595,335h0.01 M605,335h0.01 M615,335h0.01 M625,335h0.01 M635,335h0.01 M645,335h0.01 M655,335h0.01 M665,335h0.01 M675,335h0.01 M685,335h0.01 M695,335h0.01 M705,335h0.01 M715,335h0.01 M725,335h0.01 M735,335h0.01 M745,335h0.01 M755,335h0.01 M765,335h0.01 M775,335h0.01 M795,335h0.01 M805,335h0.01 M815,335h0.01 M825,335h0.01 M835,335h0.01 M845,335h0.01 M855,335h0.01 M865,335h0.01 M875,335h0.01 M885,335h0.01 M895,335h0.01 M905,335h0.01 M915,335h0.01 M925,335h0.01 M935,335h0.01 M945,335h0.01 M955,335h0.01 M965,335h0.01 M235,345h0.01 M245,345h0.01 M255,345h0.01 M315,345h0.01 M325,345h0.01 M525,345h0.01 M535,345h0.01 M545,345h0.01 M555,345h0.01 M565,345h0.01 M575,345h0.01 M585,345h0.01 M595,345h0.01 M605,345h0.01 M615,345h0.01 M625,345h0.01 M635,345h0.01 M645,345h0.01 M655,345h0.01 M665,345h0.01 M675,345h0.01 M685,345h0.01 M695,345h0.01 M705,345h0.01 M715,345h0.01 M725,345h0.01 M735,345h0.01 M745,345h0.01 M755,345h0.01 M765,345h0.01 M805,345h0.01 M815,345h0.01 M825,345h0.01 M835,345h0.01 M845,345h0.01 M855,345h0.01 M865,345h0.01 M875,345h0.01 M885,345h0.01 M895,345h0.01 M905,345h0.01 M915,345h0.01 M925,345h0.01 M935,345h0.01 M945,345h0.01 M955,345h0.01 M245,355h0.01 M255,355h0.01 M265,355h0.01 M285,355h0.01 M295,355h0.01 M335,355h0.01 M345,355h0.01 M525,355h0.01 M535,355h0.01 M545,355h0.01 M555,355h0.01 M565,355h0.01 M575,355h0.01 M585,355h0.01 M595,355h0.01 M605,355h0.01 M615,355h0.01 M625,355h0.01 M635,355h0.01 M645,355h0.01 M655,355h0.01 M665,355h0.01 M675,355h0.01 M685,355h0.01 M695,355h0.01 M715,355h0.01 M725,355h0.01 M735,355h0.01 M745,355h0.01 M755,355h0.01 M765,355h0.01 M825,355h0.01 M835,355h0.01 M845,355h0.01 M855,355h0.01 M885,355h0.01 M895,355h0.01 M905,355h0.01 M915,355h0.01 M925,355h0.01 M935,355h0.01 M255,365h0.01 M265,365h0.01 M275,365h0.01 M285,365h0.01 M295,365h0.01 M525,365h0.01 M535,365h0.01 M545,365h0.01 M555,365h0.01 M565,365h0.01 M575,365h0.01 M585,365h0.01 M595,365h0.01 M605,365h0.01 M615,365h0.01 M625,365h0.01 M635,365h0.01 M645,365h0.01 M655,365h0.01 M665,365h0.01 M675,365h0.01 M685,365h0.01 M695,365h0.01 M705,365h0.01 M715,365h0.01 M725,365h0.01 M735,365h0.01 M745,365h0.01 M755,365h0.01 M825,365h0.01 M835,365h0.01 M845,365h0.01 M895,365h0.01 M905,365h0.01 M915,365h0.01 M925,365h0.01 M975,365h0.01 M285,375h0.01 M295,375h0.01 M305,375h0.01 M525,375h0.01 M535,375h0.01 M545,375h0.01 M555,375h0.01 M565,375h0.01 M575,375h0.01 M585,375h0.01 M595,375h0.01 M605,375h0.01 M615,375h0.01 M625,375h0.01 M635,375h0.01 M645,375h0.01 M655,375h0.01 M665,375h0.01 M675,375h0.01 M685,375h0.01 M695,375h0.01 M705,375h0.01 M715,375h0.01 M725,375h0.01 M735,375h0.01 M825,375h0.01 M835,375h0.01 M905,375h0.01 M915,375h0.01 M925,375h0.01 M935,375h0.01 M975,375h0.01 M985,375h0.01 M305,385h0.01 M335,385h0.01 M345,385h0.01 M355,385h0.01 M365,385h0.01 M375,385h0.01 M535,385h0.01 M545,385h0.01 M555,385h0.01 M565,385h0.01 M575,385h0.01 M585,385h0.01 M595,385h0.01 M605,385h0.01 M615,385h0.01 M625,385h0.01 M635,385h0.01 M645,385h0.01 M655,385h0.01 M665,385h0.01 M675,385h0.01 M685,385h0.01 M695,385h0.01 M705,385h0.01 M715,385h0.01 M725,385h0.01 M735,385h0.01 M745,385h0.01 M835,385h0.01 M905,385h0.01 M925,385h0.01 M985,385h0.01 M315,395h0.01 M325,395h0.01 M335,395h0.01 M345,395h0.01 M355,395h0.01 M365,395h0.01 M375,395h0.01 M385,395h0.01 M545,395h0.01 M555,395h0.01 M565,395h0.01 M575,395h0.01 M585,395h0.01 M595,395h0.01 M605,395h0.01 M615,395h0.01 M625,395h0.01 M635,395h0.01 M645,395h0.01 M655,395h0.01 M665,395h0.01 M675,395h0.01 M685,395h0.01 M695,395h0.01 M705,395h0.01 M715,395h0.01 M725,395h0.01 M735,395h0.01 M845,395h0.01 M905,395h0.01 M985,395h0.01 M325,405h0.01 M335,405h0.01 M345,405h0.01 M355,405h0.01 M365,405h0.01 M375,405h0.01 M385,405h0.01 M395,405h0.01 M405,405h0.01 M555,405h0.01 M605,405h0.01 M615,405h0.01 M625,405h0.01 M635,405h0.01 M645,405h0.01 M655,405h0.01 M665,405h0.01 M675,405h0.01 M685,405h0.01 M695,405h0.01 M705,405h0.01 M715,405h0.01 M725,405h0.01 M735,405h0.01 M895,405h0.01 M905,405h0.01 M915,405h0.01 M955,405h0.01 M965,405h0.01 M325,415h0.01 M335,415h0.01 M345,415h0.01 M355,415h0.01 M365,415h0.01 M375,415h0.01 M385,415h0.01 M395,415h0.01 M405,415h0.01 M415,415h0.01 M615,415h0.01 M625,415h0.01 M635,415h0.01 M645,415h0.01 M655,415h0.01 M665,415h0.01 M675,415h0.01 M685,415h0.01 M695,415h0.01 M705,415h0.01 M715,415h0.01 M725,415h0.01 M905,415h0.01 M915,415h0.01 M935,415h0.01 M945,415h0.01 M955,415h0.01 M965,415h0.01 M995,415h0.01 M315,425h0.01 M325,425h0.01 M335,425h0.01 M345,425h0.01 M355,425h0.01 M365,425h0.01 M375,425h0.01 M385,425h0.01 M395,425h0.01 M405,425h0.01 M415,425h0.01 M425,425h0.01 M435,425h0.01 M615,425h0.01 M625,425h0.01 M635,425h0.01 M645,425h0.01 M655,425h0.01 M665,425h0.01 M675,425h0.01 M685,425h0.01 M695,425h0.01 M705,425h0.01 M715,425h0.01 M915,425h0.01 M945,425h0.01 M955,425h0.01 M975,425h0.01 M1015,425h0.01 M1025,425h0.01 M1035,425h0.01 M315,435h0.01 M325,435h0.01 M335,435h0.01 M345,435h0.01 M355,435h0.01 M365,435h0.01 M375,435h0.01 M385,435h0.01 M395,435h0.01 M405,435h0.01 M415,435h0.01 M425,435h0.01 M435,435h0.01 M445,435h0.01 M455,435h0.01 M625,435h0.01 M635,435h0.01 M645,435h0.01 M655,435h0.01 M665,435h0.01 M675,435h0.01 M685,435h0.01 M695,435h0.01 M705,435h0.01 M915,435h0.01 M925,435h0.01 M975,435h0.01 M1025,435h0.01 M1035,435h0.01 M1045,435h0.01 M1055,435h0.01 M1075,435h0.01 M325,445h0.01 M335,445h0.01 M345,445h0.01 M355,445h0.01 M365,445h0.01 M375,445h0.01 M385,445h0.01 M395,445h0.01 M405,445h0.01 M415,445h0.01 M425,445h0.01 M435,445h0.01 M445,445h0.01 M455,445h0.01 M465,445h0.01 M625,445h0.01 M635,445h0.01 M645,445h0.01 M655,445h0.01 M665,445h0.01 M675,445h0.01 M685,445h0.01 M695,445h0.01 M705,445h0.01 M935,445h0.01 M945,445h0.01 M1035,445h0.01 M1045,445h0.01 M1055,445h0.01 M325,455h0.01 M335,455h0.01 M345,455h0.01 M355,455h0.01 M365,455h0.01 M375,455h0.01 M385,455h0.01 M395,455h0.01 M405,455h0.01 M415,455h0.01 M425,455h0.01 M435,455h0.01 M445,455h0.01 M455,455h0.01 M625,455h0.01 M635,455h0.01 M645,455h0.01 M655,455h0.01 M665,455h0.01 M675,455h0.01 M685,455h0.01 M695,455h0.01 M705,455h0.01 M335,465h0.01 M345,465h0.01 M355,465h0.01 M365,465h0.01 M375,465h0.01 M385,465h0.01 M395,465h0.01 M405,465h0.01 M415,465h0.01 M425,465h0.01 M435,465h0.01 M445,465h0.01 M625,465h0.01 M635,465h0.01 M645,465h0.01 M655,465h0.01 M665,465h0.01 M675,465h0.01 M685,465h0.01 M695,465h0.01 M705,465h0.01 M735,465h0.01 M995,465h0.01 M1005,465h0.01 M1015,465h0.01 M1025,465h0.01 M1045,465h0.01 M345,475h0.01 M355,475h0.01 M365,475h0.01 M375,475h0.01 M385,475h0.01 M395,475h0.01 M405,475h0.01 M415,475h0.01 M425,475h0.01 M435,475h0.01 M445,475h0.01 M625,475h0.01 M635,475h0.01 M645,475h0.01 M655,475h0.01 M665,475h0.01 M675,475h0.01 M685,475h0.01 M695,475h0.01 M705,475h0.01 M725,475h0.01 M735,475h0.01 M985,475h0.01 M995,475h0.01 M1005,475h0.01 M1015,475h0.01 M1025,475h0.01 M1035,475h0.01 M1045,475h0.01 M1055,475h0.01 M355,485h0.01 M365,485h0.01 M375,485h0.01 M385,485h0.01 M395,485h0.01 M405,485h0.01 M415,485h0.01 M425,485h0.01 M435,485h0.01 M445,485h0.01 M625,485h0.01 M635,485h0.01 M645,485h0.01 M655,485h0.01 M665,485h0.01 M675,485h0.01 M685,485h0.01 M695,485h0.01 M725,485h0.01 M735,485h0.01 M965,485h0.01 M975,485h0.01 M985,485h0.01 M995,485h0.01 M1005,485h0.01 M1015,485h0.01 M1025,485h0.01 M1035,485h0.01 M1045,485h0.01 M1055,485h0.01 M355,495h0.01 M365,495h0.01 M375,495h0.01 M385,495h0.01 M395,495h0.01 M405,495h0.01 M415,495h0.01 M425,495h0.01 M435,495h0.01 M625,495h0.01 M635,495h0.01 M645,495h0.01 M655,495h0.01 M665,495h0.01 M675,495h0.01 M685,495h0.01 M695,495h0.01 M725,495h0.01 M735,495h0.01 M955,495h0.01 M965,495h0.01 M975,495h0.01 M985,495h0.01 M995,495h0.01 M1005,495h0.01 M1015,495h0.01 M1025,495h0.01 M1035,495h0.01 M1045,495h0.01 M1055,495h0.01 M1065,495h0.01 M355,505h0.01 M365,505h0.01 M375,505h0.01 M385,505h0.01 M395,505h0.01 M405,505h0.01 M415,505h0.01 M635,505h0.01 M645,505h0.01 M655,505h0.01 M665,505h0.01 M675,505h0.01 M685,505h0.01 M725,505h0.01 M955,505h0.01 M965,505h0.01 M975,505h0.01 M985,505h0.01 M995,505h0.01 M1005,505h0.01 M1015,505h0.01 M1025,505h0.01 M1035,505h0.01 M1045,505h0.01 M1055,505h0.01 M1065,505h0.01 M1075,505h0.01 M355,515h0.01 M365,515h0.01 M375,515h0.01 M385,515h0.01 M395,515h0.01 M405,515h0.01 M415,515h0.01 M635,515h0.01 M645,515h0.01 M655,515h0.01 M665,515h0.01 M675,515h0.01 M685,515h0.01 M955,515h0.01 M965,515h0.01 M975,515h0.01 M985,515h0.01 M995,515h0.01 M1005,515h0.01 M1015,515h0.01 M1025,515h0.01 M1035,515h0.01 M1045,515h0.01 M1055,515h0.01 M1065,515h0.01 M1075,515h0.01 M345,525h0.01 M355,525h0.01 M365,525h0.01 M375,525h0.01 M385,525h0.01 M395,525h0.01 M405,525h0.01 M415,525h0.01 M635,525h0.01 M645,525h0.01 M655,525h0.01 M665,525h0.01 M675,525h0.01 M955,525h0.01 M965,525h0.01 M975,525h0.01 M985,525h0.01 M995,525h0.01 M1005,525h0.01 M1015,525h0.01 M1025,525h0.01 M1035,525h0.01 M1045,525h0.01 M1055,525h0.01 M1065,525h0.01 M1075,525h0.01 M345,535h0.01 M355,535h0.01 M365,535h0.01 M375,535h0.01 M385,535h0.01 M395,535h0.01 M405,535h0.01 M645,535h0.01 M655,535h0.01 M665,535h0.01 M955,535h0.01 M965,535h0.01 M975,535h0.01 M985,535h0.01 M1025,535h0.01 M1035,535h0.01 M1045,535h0.01 M1055,535h0.01 M1065,535h0.01 M1075,535h0.01 M345,545h0.01 M355,545h0.01 M365,545h0.01 M375,545h0.01 M385,545h0.01 M395,545h0.01 M1035,545h0.01 M1045,545h0.01 M1055,545h0.01 M1065,545h0.01 M1145,545h0.01 M345,555h0.01 M355,555h0.01 M365,555h0.01 M375,555h0.01 M385,555h0.01 M1045,555h0.01 M1055,555h0.01 M1155,555h0.01 M345,565h0.01 M355,565h0.01 M365,565h0.01 M375,565h0.01 M1055,565h0.01 M1145,565h0.01 M1155,565h0.01 M345,575h0.01 M355,575h0.01 M365,575h0.01 M1055,575h0.01 M1135,575h0.01 M1145,575h0.01 M345,585h0.01 M355,585h0.01 M1125,585h0.01 M1135,585h0.01 M335,595h0.01 M345,595h0.01 M355,595h0.01 M365,595h0.01 M335,605h0.01 M345,605h0.01 M355,605h0.01 M335,615h0.01 M345,615h0.01 M355,615h0.01 M385,615h0.01 M345,625h0.01 M355,625h0.01 M355,635h0.01 M365,635h0.01" />
+        <path class="arc" pathLength="1" d="M904,341.1 Q743,185.8 582,222.7" />
+        <path class="arc" pathLength="1" d="M904,341.1 Q774,208 644,232.7" />
+        <path class="arc" pathLength="1" d="M904,341.1 Q624,140.4 344,256.8" />
+        <path class="arc" pathLength="1" d="M904,341.1 Q957,257 1010,250.8" />
+        <path class="arc" pathLength="1" d="M904,341.1 Q997,364.8 1090,541.7" />
+        <circle class="origin-halo" cx="904" cy="341.1" r="8" /><circle class="origin" cx="904" cy="341.1" r="5" />
+        <text class="lbl" x="918" y="362">Bangladesh</text>
+        <g><circle class="glow" cx="582" cy="222.7" r="6" /><circle class="pt" cx="582" cy="222.7" r="4" /><text class="lbl" x="568" y="206" text-anchor="end">United Kingdom</text></g>
+        <g><circle class="glow" cx="644" cy="232.7" r="6" /><circle class="pt" cx="644" cy="232.7" r="4" /><text class="lbl" x="658" y="228">Europe</text></g>
+        <g><circle class="glow" cx="344" cy="256.8" r="6" /><circle class="pt" cx="344" cy="256.8" r="4" /><text class="lbl" x="330" y="280" text-anchor="end">North America</text></g>
+        <g><circle class="glow" cx="1010" cy="250.8" r="6" /><circle class="pt" cx="1010" cy="250.8" r="4" /><text class="lbl" x="1024" y="246">Asia</text></g>
+        <g><circle class="glow" cx="1090" cy="541.7" r="6" /><circle class="pt" cx="1090" cy="541.7" r="4" /><text class="lbl" x="1104" y="546">Australia</text></g>
+      </svg>
+      <div>
+        <ul class="markets-list">
+          <li class="reveal"><b>Europe</b><span>Core market</span></li>
+          <li class="reveal" style="--d:1"><b>United Kingdom</b><span>Core market</span></li>
+          <li class="reveal" style="--d:2"><b>North America</b><span>USA · Canada</span></li>
+          <li class="reveal" style="--d:3"><b>Asia</b><span>South Korea · Japan</span></li>
+          <li class="reveal" style="--d:4"><b>Australia</b><span>Growth market</span></li>
+        </ul>
+        <p class="duty reveal" style="--d:5"><b>Duty-free access</b> from Bangladesh to the EU, UK, Canada, Australia, South Korea and Japan.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================== 10 · COMPLIANCE & SUSTAINABILITY -->
+<section class="section s-paper" id="sustainability">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow reveal">Compliance &amp; sustainability</p>
+      <h2 class="h2 reveal" style="--d:1">Proof, not decoration.</h2>
+      <p class="lede reveal" style="--d:2">Audited against the standards our partners audit against, with the energy, water and social programmes to back it up.</p>
+    </div>
+
+    <div class="cert-grid" aria-label="Certifications and memberships">
+      <div class="cert reveal"><b>RSC</b><span>RMG Sustainability Council</span></div>
+      <div class="cert reveal" style="--d:1"><b>WRAP</b><span>Worldwide Responsible Accredited Production</span></div>
+      <div class="cert reveal" style="--d:2"><b>C-TPAT</b><span>Customs-Trade Partnership Against Terrorism</span></div>
+      <div class="cert reveal" style="--d:3"><b>Sedex</b><span>Ethical trade audit member</span></div>
+      <div class="cert reveal" style="--d:4"><b>Higg Index</b><span>Facility environmental &amp; social modules</span></div>
+      <div class="cert reveal" style="--d:5"><b>BSCI</b><span>Business Social Compliance Initiative</span></div>
+      <div class="cert reveal" style="--d:6"><b>OEKO-TEX</b><span>Eco Passport</span></div>
+      <div class="cert reveal" style="--d:7"><b>OEKO-TEX</b><span>Standard 100</span></div>
+      <div class="cert reveal"><b>Better Work</b><span>Bangladesh · ILO / IFC</span></div>
+      <div class="cert reveal" style="--d:1"><b>GOTS</b><span>Global Organic Textile Standard</span></div>
+      <div class="cert reveal" style="--d:2"><b>OCS 100</b><span>Organic Content Standard</span></div>
+      <div class="cert reveal" style="--d:3"><b>RCS 100</b><span>Recycled Claim Standard</span></div>
+      <div class="cert reveal" style="--d:4"><b>FSC</b><span>Chain of custody · SGS</span></div>
+      <div class="cert reveal" style="--d:5"><b>EcoVadis</b><span>Sustainability rating</span></div>
+      <div class="cert reveal" style="--d:6"><b>GMP</b><span>Good Manufacturing Practice</span></div>
+      <div class="cert reveal" style="--d:7"><b>Accord / Alliance</b><span>Fire &amp; building safety</span></div>
+    </div>
+
+    <div class="proof">
+      <figure class="reveal"><img src="assets/photos/etp-pond.jpg" alt="Effluent treatment plant aeration basin at an Asrotex unit" loading="lazy" /><figcaption>Effluent treatment plant, on site</figcaption></figure>
+      <div>
+        <h3 class="h2 reveal">Sun on the roof. Clean water out the back.</h3>
+        <div class="proof-stats">
+          <div class="reveal" style="--d:1"><div class="num">1.9<small>MW</small></div><p>Rooftop solar generating capacity across the group.</p></div>
+          <div class="reveal" style="--d:2"><div class="num">100<small>%</small></div><p>Of products carrying at least one sustainable attribute by 2030.</p></div>
+          <div class="reveal" style="--d:3"><div class="num">ETP</div><p>Effluent treatment on site, so process water is treated before it leaves.</p></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="asrocare">
+      <div>
+        <p class="eyebrow reveal">ASROCARE</p>
+        <h3 class="h3 reveal" style="--d:1">The CSR arm of Asrotex Group, on a mission for the people who make the product.</h3>
+        <div class="pillars">
+          <div class="reveal" style="--d:2"><b>Zero hunger</b><span>Nutrition programmes for the workforce and their families.</span></div>
+          <div class="reveal" style="--d:3"><b>Quality education</b><span>On-site childcare so parents can work while children learn.</span></div>
+          <div class="reveal" style="--d:4"><b>Greener planet</b><span>Solar, effluent treatment and the 2030 product commitment.</span></div>
+        </div>
+      </div>
+      <div class="photos">
+        <figure class="reveal" style="--d:2"><img src="assets/photos/csr-childcare.jpg" alt="Carer with children at the on-site childcare centre" loading="lazy" /><figcaption>On-site childcare</figcaption></figure>
+        <figure class="reveal" style="--d:3"><img src="assets/photos/csr-medical.jpg" alt="Nurse attending a worker at the on-site medical centre" loading="lazy" /><figcaption>On-site medical centre</figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================== 11 · VISION 2026+ -->
+<section class="section s-ink" id="vision">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow reveal">Vision 2026 and beyond</p>
+      <h2 class="h2 reveal" style="--d:1">Where the next thirty years start.</h2>
+    </div>
+    <div class="vision-grid">
+      <div class="vision-item reveal"><i>01</i><div><h3 class="h3">The best global fashion partner.</h3><p>Measured by the brands that keep booking capacity with us.</p></div></div>
+      <div class="vision-item reveal" style="--d:1"><i>02</i><div><h3 class="h3">A world-class design &amp; development team, with overseas design offices in the EU and USA.</h3><p>Design closer to the consumer, develop next to the machine.</p></div></div>
+      <div class="vision-item reveal" style="--d:2"><i>03</i><div><h3 class="h3">Fariha Knit Tex benchmarked as a smart factory, rolled out group-wide by 2026.</h3><p>The mother unit sets the standard; every unit follows.</p></div></div>
+      <div class="vision-item reveal" style="--d:3"><i>04</i><div><h3 class="h3">Group sustainability goals for 2026, and a best-place-to-work culture.</h3><p>The targets are written down; so is the promise to the 17,000 people who meet them.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================== 12 · WHY BANGLADESH -->
+<section class="section s-paper" id="bangladesh">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow reveal">Why Bangladesh</p>
+      <h2 class="h2 reveal" style="--d:1">The world's knitwear floor, with the trade access to match.</h2>
+    </div>
+    <div class="bd-strip">
+      <div class="bd-fact reveal"><b>2nd</b><span>Largest ready-made garment exporter in the world</span></div>
+      <div class="bd-fact reveal" style="--d:1"><b>3,555+</b><span>Garment factories across the country</span></div>
+      <div class="bd-fact reveal" style="--d:2"><b>Duty-free</b><span>Access to the EU, UK, Canada, Australia, South Korea and Japan</span></div>
+      <div class="bd-fact reveal" style="--d:3"><b>Vertical</b><span>End-to-end supply chain under one roof</span></div>
+      <div class="bd-fact reveal" style="--d:4"><b>Quick TO</b><span>Turnaround for high-volume and low-MOQ orders alike</span></div>
+      <div class="bd-fact reveal" style="--d:5"><b>$40B → $52B</b><span>Export growth, 2021–2026</span>
+        <svg class="spark reveal-line" viewBox="0 0 200 64" preserveAspectRatio="none" aria-label="Export growth: 40, 42, 45, 48, 52 billion US dollars from 2021 to 2026">
+          <path class="l" pathLength="1" d="M8 50 L54 44 L100 34 L146 24 L192 12" />
+          <circle cx="8" cy="50" r="2" /><circle cx="54" cy="44" r="2" /><circle cx="100" cy="34" r="2" /><circle cx="146" cy="24" r="2" /><circle cx="192" cy="12" r="2" />
+          <text x="8" y="62">21–22</text><text x="180" y="62" text-anchor="end">25–26</text>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================== 13 · LET'S CONNECT -->
+<section class="section s-ink connect" id="connect">
+  <div class="container">
+    <div class="connect-layout">
+      <div>
+        <p class="eyebrow reveal">Let's connect</p>
+        <h2 class="h2 reveal" style="--d:1">Tell us what you need to make.</h2>
+        <p class="tagline reveal" style="--d:2">There's no better time <em>than now.</em></p>
+
+        <form class="form-grid reveal" id="enquiry" novalidate style="--d:3">
+          <div class="field"><label for="f-name">Name</label><input id="f-name" name="name" type="text" autocomplete="name" required /><span class="err">Please add your name.</span></div>
+          <div class="field"><label for="f-company">Company</label><input id="f-company" name="company" type="text" autocomplete="organization" required /><span class="err">Please add your company.</span></div>
+          <div class="field"><label for="f-role">Role</label><input id="f-role" name="role" type="text" autocomplete="organization-title" placeholder="Sourcing director, category manager…" /></div>
+          <div class="field"><label for="f-email">Work email</label><input id="f-email" name="email" type="email" autocomplete="email" required /><span class="err">Please add a valid work email.</span></div>
+          <div class="field"><label for="f-market">Market</label><select id="f-market" name="market" required><option value="">Select</option><option>Europe</option><option>United Kingdom</option><option>North America</option><option>Asia</option><option>Australia</option><option>Other</option></select><span class="err">Please choose a market.</span></div>
+          <div class="field"><label for="f-category">Product category</label><select id="f-category" name="category" required><option value="">Select</option><option>Everyday Essentials</option><option>Kids Wear</option><option>Elevated Styles</option><option>Active Essentials</option><option>Medical scrubs</option><option>Adaptive apparel</option><option>Mixed programme</option></select><span class="err">Please choose a category.</span></div>
+          <div class="field"><label for="f-volume">Monthly volume</label><select id="f-volume" name="volume"><option value="">Select</option><option>Under 50,000 pcs</option><option>50,000 – 200,000 pcs</option><option>200,000 – 500,000 pcs</option><option>500,000 – 1M pcs</option><option>1M+ pcs</option></select></div>
+          <div class="field full"><label for="f-message">Message</label><textarea id="f-message" name="message" placeholder="Programme, timing, fabric, anything that helps us answer well."></textarea></div>
+          <div class="form-foot">
+            <button class="pill" type="submit">Send enquiry <svg viewBox="0 0 14 14" aria-hidden="true"><path d="M2 7h10M8 3l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></button>
+            <p class="small">Our merchandising team works 24×7. Expect a reply from a named merchandiser, not a queue.</p>
+          </div>
+        </form>
+        <div class="form-ok" id="form-ok" role="status" aria-live="polite">
+          <h3 class="h3">Thank you. Your enquiry is on its way.</h3>
+          <p>A merchandiser will come back to you directly. If you would rather write, our contact details are beside this form.</p>
+        </div>
+      </div>
+
+      <aside class="contact-card reveal" style="--d:2">
+        <p class="eyebrow">Head office</p>
+        <dl>
+          <dt>Address</dt><dd><span class="ph">[HQ ADDRESS]</span></dd>
+          <dt>Phone</dt><dd><span class="ph">[PHONE]</span></dd>
+          <dt>Email</dt><dd><span class="ph">[EMAIL]</span></dd>
+          <dt>LinkedIn</dt><dd><span class="ph">[LINKEDIN URL]</span></dd>
+          <dt>Leadership</dt><dd><span class="ph">[LEADERSHIP NAMES + TITLES]</span></dd>
+        </dl>
+        <p class="lead-line">Narayanganj, Bangladesh · Design studio and mother unit on one site. <a class="textlink" href="https://discover.matterport.com/space/on1w3JZ2QZY" target="_blank" rel="noopener">Virtual tour</a></p>
+      </aside>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ====================================================== 14 · FOOTER -->
+<footer class="footer s-ink">
+  <div class="container">
+    <div class="top">
+      <div>
+        <a class="wordmark" href="#top"><span class="wm">ASROTEX</span><span class="wm-sub">GROUP</span></a>
+        <p class="tag">…differently</p>
+      </div>
+      <div class="col">
+        <h4>Units</h4>
+        <ul>
+          <li>Fariha Knit Tex Ltd · Narayanganj</li>
+          <li>Lariz Fashion Ltd · Narayanganj</li>
+          <li>Asrotex · Narayanganj</li>
+          <li>Asrotex Ltd · Gazipur</li>
+          <li>Sensible Fashion Ltd · Narayanganj</li>
+          <li>Asrotex Design Studio · Narayanganj</li>
+        </ul>
+      </div>
+      <div class="col">
+        <h4>Compliance</h4>
+        <p>RSC · WRAP · C-TPAT · Sedex · Higg Index · BSCI · OEKO-TEX Eco Passport · OEKO-TEX Standard 100 · Better Work Bangladesh · GOTS · OCS 100 · RCS 100 · FSC (SGS) · EcoVadis · GMP · Accord / Alliance</p>
+      </div>
+    </div>
+    <div class="bottom">
+      <span>© 2026 Asrotex Group. Since 1995.</span>
+      <span>Bangladesh's vertically integrated knit-apparel group.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="vendor/lenis.min.js"></script>
+<script>
+  // One entry per scrubbed chapter. To swap in Seedance clips: extract 120 frames per
+  // clip into frames/<id>/frame_0001.<ext> … and update `frames`/`ext` here if they differ.
+  window.TOUR = {
+    chapterVh: 450,
+    chapters: [
+      { id: "approach",    label: "Approach",      frames: 120, ext: "webp" },
+      { id: "knit-dye",    label: "Knit & Dye",    frames: 120, ext: "webp" },
+      { id: "cut-sew",     label: "Cut & Sew",     frames: 120, ext: "webp" },
+      { id: "design-ship", label: "Design & Ship", frames: 120, ext: "webp" }
+    ],
+    framePath: (ch, i) => `frames/${ch.id}/frame_${String(i).padStart(4, "0")}.${ch.ext}`
+  };
+  // Enquiry form: set to your endpoint (Formspree, Basin, your own API). Empty = demo mode.
+  window.FORM_ENDPOINT = "";
+</script>
+<script src="main.js"></script>
+</body>
+</html>
